@@ -94,6 +94,18 @@ event-fitted models, Git history or private uploads are included. See [SOURCE.md
 The original development repository is separate; replacing its main branch
 would not erase its previous history or forks.
 
+## Statistical calibration status
+
+An optional, offline StatsBomb-format calibration tool is available in
+`research/statsbomb_calibration.py`. It checks source hashes and disjoint splits,
+fits aggregate frequency tables and reports held-out errors. It was tested with
+invented fixtures; **StatsBomb calibration is not activated in the bundled data**.
+The public license restricts commercial exploitation and requires attribution
+and a logo; project-specific authorization for the intended contest/public-demo
+uses has not been established. See [method, rights review and activation steps](docs/statsbomb-calibration.md).
+The release remains synthetic and uses engineering-default frequency assumptions.
+No compliance or real-match predictive accuracy is certified by these checks.
+
 ## Validation
 
 ```sh

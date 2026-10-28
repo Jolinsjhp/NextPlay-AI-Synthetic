@@ -13,3 +13,7 @@ does not include their Git history, original datasets, old fitted models, downlo
 clips, private uploads, credentials or the optional YOLO research implementation.
 Video review accepts manual evidence locally; rights and observation confirmation
 are required. The built-in generated clip is a synthetic workflow demonstration.
+
+An optional StatsBomb-format aggregate research tool is included, but no external
+calibration data or derived profile is activated or redistributed. See
+[calibration status and rights review](docs/statsbomb-calibration.md).
