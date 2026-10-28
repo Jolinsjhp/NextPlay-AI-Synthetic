@@ -94,6 +94,33 @@ event-fitted models, Git history or private uploads are included. See [SOURCE.md
 The original development repository is separate; replacing its main branch
 would not erase its previous history or forks.
 
+## Integrated decision kernel
+
+The lightweight System 1 code from [the teammate repository](https://github.com/tigerguoyi/Microsoft_Hackthon)
+is included under `inside_the_game/`, with source hashes in
+[`UPSTREAM.json`](inside_the_game/UPSTREAM.json). The adapter normalizes both teams
+to their actual attacking direction and uses only decision-time ball position,
+opponent proximity, clock and score from the same synthetic or human-confirmed
+video snapshot.
+
+**Snapshot → four-class tendency → existing candidate comparison → hypothetical
+rollout → evidence-bound agent explanation and review.** The tendency is a
+separate diagnostic, not a filter or multiplier on Q2. Existing candidate IDs,
+values, ranks and registered evidence stay unchanged.
+
+The integrated baseline uses **hand-set upstream softmax coefficients**, explicitly
+labelled `hand_set_stub`. No upstream trained weight files or datasets were
+imported. Its pass/shoot/dribble/hold shares sum to one, but are not action-success
+rates, goal probabilities or proof that a specific action is eligible. The model
+has not been trained on this release's 30 matches. Agent context receives the
+separate diagnostic with instructions not to override Q2 or invent evidence.
+The decision-analysis and confirmed-video comparison views display it separately.
+
+Run with `python3 server.py`, or optionally install the included packages into a
+virtual environment with `python -m pip install -e .`. Python 3.12 is recommended.
+This integration includes the lightweight kernel only: it does not enable YOLO,
+Microsoft Agent Framework, cloud deployment or real-model provider validation.
+
 ## Statistical calibration status
 
 An optional, offline StatsBomb-format calibration tool is available in

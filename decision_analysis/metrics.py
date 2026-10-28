@@ -2,6 +2,7 @@
 import math
 import copy
 from .input_adapter import source_profile
+from .kernel import tendency
 
 VERSION = 'decision-analysis-1'
 FEATURE_UNITS = dict(progress='m',y='m',vx='m/s',vy='m/s',ball_speed='m/s',distance='m',advance='m',lateral='m',
@@ -50,7 +51,7 @@ def analysis_document(request, public, private, snapshot, metadata, source, deci
     top=next((c['action_id'] for c in public['candidates'] if c['rank']==1),None)
     return dict(schema_version=VERSION,match_id=snapshot['match_id'],decision_id=decision_id,
         snapshot_id=snapshot['snapshot_id'],candidate_set_id=public['candidate_set_id'],data_version=snapshot['data_version'],
-        source=source,request=copy.deepcopy(request),snapshot=snapshot,public=public,action_conditions=conditions(snapshot,metadata),
+        source=source,request=copy.deepcopy(request),snapshot=snapshot,public=public,action_tendency=tendency(snapshot,metadata),action_conditions=conditions(snapshot,metadata),
         player_source_profile=source_profile(next(p for p in metadata['players'] if p['player_id']==request['actor_id'])),
         model=dict(model_id=private.get('model_id'),evaluation_mode='two_step_Q2',temperature=private.get('temperature'),
             feature_units=FEATURE_UNITS,probability_basis='unvalidated_tactical_assumption',

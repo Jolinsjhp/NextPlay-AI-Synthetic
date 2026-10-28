@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nextplay-synthetic"
+version = "0.2.0"
+description = "Synthetic match decision analysis with a separate four-action tendency kernel"
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["inside_the_game*", "decision*", "video_review*", "contracts*", "realism*", "research*"]
+
+[tool.setuptools.package-data]
+inside_the_game = ["UPSTREAM.json"]

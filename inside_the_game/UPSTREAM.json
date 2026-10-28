@@ -1,0 +1,39 @@
+{
+  "repository": "https://github.com/tigerguoyi/Microsoft_Hackthon",
+  "scope": "Selected standard-library System 1 modules only; no upstream fitted weights or datasets",
+  "files": [
+    {
+      "path": "labels.py",
+      "sha256": "b85c782a9f29a12a7bbd99094e62ab3d3e61358ac8a04e3a69fea500cc509f29"
+    },
+    {
+      "path": "ingest/events.py",
+      "sha256": "824f1eeebaa45991300535612d44d348e86abb5fcfc2838d73a67ee67cead0a5"
+    },
+    {
+      "path": "features/extract.py",
+      "sha256": "08b834947fc4f7647094e0095b2121623a936263ff6fc0096df5efaaf637f62d"
+    },
+    {
+      "path": "features/from_tracking.py",
+      "sha256": "aaff265a636c3f7ba0b46e109a27a2b667f0c4682e95fd63cd89cc1b1492525d"
+    },
+    {
+      "path": "features/from_cv.py",
+      "sha256": "bb0e18cce88229383339ee9c5250713736422333c68a9886a354910cdce720d1"
+    },
+    {
+      "path": "system1/policy.py",
+      "sha256": "9b38d50e67468e90ce1e60a3a32516c4a91141ca979a08ae7a8432b11483ca28"
+    },
+    {
+      "path": "system1/fit.py",
+      "sha256": "3f984b9398cd4f36edee8759321162e17b5b0af3260648d4146d7c2a85792ca9"
+    }
+  ],
+  "changes": [
+    "Lightweight package initializers",
+    "Remove zip(strict=True) in policy/fit for existing Python 3.9 compatibility; feature schema fixes equal vector lengths"
+  ],
+  "upstream_base_commit": "6721f0f7a3688fa805bb1e19bb5501e80e0b7c41"
+}

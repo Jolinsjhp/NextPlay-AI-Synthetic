@@ -67,3 +67,11 @@ python3 -m decision_analysis.pipeline all --source data/league
 
 If changing source metadata or seeds, use a new derivative output directory
 with `--output data/NEW_NAME`; do not manually edit existing source hashes.
+
+## Decision kernel integration
+
+87 Python tests and 6 JavaScript tests passed locally after the integration.
+The four new integration checks cover normalized class shares and provenance,
+rotation invariance, unavailable non-live snapshots, and unchanged candidates
+after adding diagnostics. HTTP tests run against local servers; these are not
+Azure deployment or provider validation. All bundled data is unchanged.

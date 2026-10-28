@@ -17,3 +17,10 @@ are required. The built-in generated clip is a synthetic workflow demonstration.
 An optional StatsBomb-format aggregate research tool is included, but no external
 calibration data or derived profile is activated or redistributed. See
 [calibration status and rights review](docs/statsbomb-calibration.md).
+
+Selected lightweight System 1 code from tigerguoyi/Microsoft_Hackthon is now
+included in inside_the_game/, with the base commit, original source hashes and
+compatibility changes recorded in inside_the_game/UPSTREAM.json. No upstream
+fitted weights are included. The hand-set baseline does not change Q2 ranks.
+No SPDX license is inferred from a public repository; applicable team permissions
+and upstream obligations still apply.

@@ -12,7 +12,7 @@ def paths(root=ROOT):
     for p in root.iterdir():
         if p.is_file() and p.suffix in ('.py','.js','.html','.css','.json') and not p.name.startswith('.'):
             result.append(p)
-    for name in ('realism','decision','decision_analysis','video_review','contracts','deploy/azure','data/decision-analysis','data/league','tests/fixtures/contracts'):
+    for name in ('inside_the_game','realism','decision','decision_analysis','video_review','contracts','deploy/azure','data/decision-analysis','data/league','tests/fixtures/contracts'):
         for p in (root/name).rglob('*'):
             if not p.is_file() or any(part.startswith('.') or part=='__pycache__' for part in p.relative_to(root).parts):continue
             # B reads immutable decision snapshots from the derived sidecar. The repository
