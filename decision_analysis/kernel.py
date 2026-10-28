@@ -1,6 +1,7 @@
 """Decision-time category tendencies, independent of Q2 ranking and evidence."""
 import math
 from inside_the_game.features.extract import FeatureVector
+from inside_the_game.features.from_cv import pressure_from_distances
 from inside_the_game.system1.policy import SoftmaxActionPolicy
 
 
@@ -21,8 +22,8 @@ def tendency(snapshot, metadata):
     opponents=[math.dist(actor[1:3],p[1:3]) for p in players.values() if teams.get(p[0]) not in (None,team)]
     if not opponents:return dict(status='unavailable',reason='Opponent coverage is unavailable')
     # Continuous proximity proxy; not a measured tackle probability.
-    pressure=max(0.,min(1.,(12-min(opponents))/9))
-    elapsed=(snapshot['period']-1)*45+frame['period_ms']/60000
+    pressure=pressure_from_distances(opponents)
+    elapsed=int(snapshot['t_ms'])//60000
     home,away=frame['score'];diff=home-away if team=='HOME' else away-home
     features=FeatureVector(x/105,y/68,1-abs(y/68-.5)*2,pressure,min(1.,max(0.,elapsed/90)),max(-1.,min(1.,diff/5)))
     policy=SoftmaxActionPolicy.stub()

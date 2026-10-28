@@ -24,3 +24,8 @@ compatibility changes recorded in inside_the_game/UPSTREAM.json. No upstream
 fitted weights are included. The hand-set baseline does not change Q2 ranks.
 No SPDX license is inferred from a public repository; applicable team permissions
 and upstream obligations still apply.
+
+The teammate analytic route kernel, offline narration request builder and
+Microsoft Agent Framework workflow are now included as well. They use analytic
+position values and a hand-set softmax baseline; no old fitted model or dataset
+was imported. Exact source-file hashes are recorded in inside_the_game/UPSTREAM.json.

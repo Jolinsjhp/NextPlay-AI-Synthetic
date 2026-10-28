@@ -75,3 +75,13 @@ The four new integration checks cover normalized class shares and provenance,
 rotation invariance, unavailable non-live snapshots, and unchanged candidates
 after adding diagnostics. HTTP tests run against local servers; these are not
 Azure deployment or provider validation. All bundled data is unchanged.
+
+## Microsoft Agent Framework integration
+
+A clean Python 3.12 environment installed the project with `pip install -e ".[agent]"`.
+Tested agent-framework-core 1.23.0 and NumPy 2.5.4. All 92 Python tests passed,
+including five actual framework tests with no skips. They verify tool order and
+parity with the direct route kernel, immutable inputs/Q2 candidates, scoring and
+narration degradation, and rejecting future frames. Six JavaScript tests passed.
+The narration stage constructs a request but does not send it. Four-role
+Responses orchestration remains separate. No Azure/provider validation claimed.

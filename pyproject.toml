@@ -9,6 +9,9 @@ description = "Synthetic match decision analysis with a separate four-action ten
 requires-python = ">=3.9"
 dependencies = []
 
+[project.optional-dependencies]
+agent = ["agent-framework-core==1.23.0; python_version >= '3.11'", "numpy>=1.26,<3; python_version >= '3.11'"]
+
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["inside_the_game*", "decision*", "video_review*", "contracts*", "realism*", "research*"]

@@ -82,7 +82,9 @@ through their compatible endpoint. Without configuration the numerical tools
 remain usable and the assistant reports that the model is unavailable.
 
 The production four-role orchestration is implemented in Python using Responses
-tool calls. This export does not claim to run Microsoft Agent Framework or YOLO.
+tool calls. The optional Microsoft Agent Framework workflow runs the decision
+kernel; it does not replace the four-role Responses orchestration. YOLO is not
+automatically enabled by this integration.
 It is not a video-to-tracking accuracy benchmark. Optional proposal JSONL files
 can be imported, but still require manual identity and observation confirmation.
 
@@ -118,8 +120,46 @@ The decision-analysis and confirmed-video comparison views display it separately
 
 Run with `python3 server.py`, or optionally install the included packages into a
 virtual environment with `python -m pip install -e .`. Python 3.12 is recommended.
-This integration includes the lightweight kernel only: it does not enable YOLO,
-Microsoft Agent Framework, cloud deployment or real-model provider validation.
+This integration now also includes the teammate analytic route kernel and an
+optional Microsoft Agent Framework execution path. It does not enable YOLO,
+cloud deployment or real-model provider validation.
+
+## Microsoft Agent Framework and the route kernel
+
+Install the tested framework extra in a Python 3.12 virtual environment:
+
+```sh
+python3.12 -m venv .venv
+source .venv/bin/activate
+python -m pip install -e ".[agent]"
+python server.py
+```
+
+The pinned `agent-framework-core==1.23.0` runtime executes the imported workflow:
+**read-frame → decide → score-completion → narrate**. It reads only the bound
+snapshot and eligible Q2 candidate targets, computes the teammate kernel's
+analytic pitch-control × static-position-value route diagnostics, and builds an
+offline narration request. Without an injected narrator, `sent` stays false.
+This is an actual framework execution path, not a renamed Python chain.
+
+Both synthetic analysis and confirmed-video analysis expose `kernel_workflow`
+and its real tool trace. The agent context receives the diagnostics too. The
+existing Q2 model still owns the displayed candidate ranking and registered
+evidence; analytic kernel route scores do not replace it. The separate category
+panel uses the same six-feature softmax baseline as the workflow.
+
+The default kernel backend is `framework`. With dependencies missing it reports
+`unavailable` and Q2 remains usable; it does not silently claim a framework run.
+`NEXTPLAY_KERNEL_BACKEND=direct` explicitly selects the teammate in-process
+reference path. Four-role attack/defence/coordinator/reviewer calls still use our
+Responses orchestration; this release does not claim they have been migrated to
+Agent Framework.
+
+Local validation: the installation command succeeded, 92 Python tests passed
+with the actual framework installed (including five framework integration tests,
+none skipped), and six JavaScript tests passed. Tested failure paths include
+scoring and narration failures and rejecting a future frame. No live provider
+request or Azure redeployment was performed for this integration.
 
 ## Statistical calibration status
 

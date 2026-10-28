@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/tigerguoyi/Microsoft_Hackthon",
-  "scope": "Selected standard-library System 1 modules only; no upstream fitted weights or datasets",
+  "scope": "Lightweight System 1, analytic route kernel and optional Microsoft Agent Framework workflow; no upstream fitted weights or datasets",
   "files": [
     {
       "path": "labels.py",
@@ -29,6 +29,26 @@
     {
       "path": "system1/fit.py",
       "sha256": "3f984b9398cd4f36edee8759321162e17b5b0af3260648d4146d7c2a85792ca9"
+    },
+    {
+      "path": "system1/tracking.py",
+      "sha256": "855dd32354caef5da3b05d50471dfcd1b33a9432702974202694ed07b6974bcb"
+    },
+    {
+      "path": "system1/completion.py",
+      "sha256": "d467c2bf4d4a54471c20a32f671415032137e2b4aa03f3747fde4a33529b4b61"
+    },
+    {
+      "path": "system1/agent_workflow.py",
+      "sha256": "844127f07157b97876111841a581294999eed515e566acdc54af6635ae5e5b17"
+    },
+    {
+      "path": "system1/orchestrator.py",
+      "sha256": "121b4bc84e8ae504de4f716f0ea9682adbbb15161a919aecd8112d9d9d132450"
+    },
+    {
+      "path": "system2/foundry.py",
+      "sha256": "b921226ff0d4135afb9328b4fd9dbd83cafb55f2d6dc586e46d7f672d21ed299"
     }
   ],
   "changes": [
