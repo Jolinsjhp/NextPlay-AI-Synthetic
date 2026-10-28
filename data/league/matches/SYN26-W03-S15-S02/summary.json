@@ -1,0 +1,135 @@
+{
+  "match_id": "SYN26-W03-S15-S02",
+  "seed": 20264031,
+  "duration_seconds": 6000,
+  "tracking_hz": 5,
+  "tracking_frames": 30001,
+  "player_position_records": 655744,
+  "state_snapshots": 6001,
+  "event_count": 4710,
+  "event_counts": {
+    "period_start": 2,
+    "possession_change": 626,
+    "restart": 25,
+    "pressure": 757,
+    "carry": 743,
+    "pass": 1899,
+    "interception": 605,
+    "shot": 18,
+    "save": 7,
+    "stoppage": 11,
+    "yellow_card": 2,
+    "action_cancelled": 7,
+    "period_end": 2,
+    "substitution": 4,
+    "red_card": 1,
+    "match_end": 1
+  },
+  "final_score": [
+    0,
+    1
+  ],
+  "final_stats": {
+    "HOME": {
+      "passes": 923,
+      "completed_passes": 622,
+      "shots": 11,
+      "shots_on_target": 3,
+      "interceptions": 304,
+      "pressure_events": 378,
+      "possession_seconds": 2846.8,
+      "possession_pct": 49.2,
+      "pass_accuracy_pct": 67.39
+    },
+    "AWAY": {
+      "passes": 976,
+      "completed_passes": 672,
+      "shots": 7,
+      "shots_on_target": 5,
+      "interceptions": 301,
+      "pressure_events": 379,
+      "possession_seconds": 2939.0,
+      "possession_pct": 50.8,
+      "pass_accuracy_pct": 68.85
+    }
+  },
+  "distance_m": {
+    "H01": 4681.2,
+    "H02": 11696.1,
+    "H03": 16080.6,
+    "H04": 16133.3,
+    "H05": 15623.9,
+    "H06": 10610.7,
+    "H07": 16565.5,
+    "H08": 16478.8,
+    "H09": 16462.7,
+    "H10": 17057.3,
+    "H11": 16639.7,
+    "A01": 4789.9,
+    "A02": 15631.4,
+    "A03": 16008.1,
+    "A04": 15934.9,
+    "A05": 13440.8,
+    "A06": 12870.5,
+    "A07": 16495.2,
+    "A08": 16280.5,
+    "A09": 16295.0,
+    "A10": 17014.5,
+    "A11": 10594.1,
+    "H12": 5832.1,
+    "H13": 0.0,
+    "H14": 4028.2,
+    "A12": 3464.0,
+    "A13": 5569.0,
+    "A14": 0.0
+  },
+  "goals": [
+    {
+      "t_ms": 2869600,
+      "period": 1,
+      "period_ms": 2869600,
+      "team_id": "AWAY",
+      "club_id": "S02",
+      "club_name": "Beacon FC",
+      "player_id": "A10",
+      "player_name": "Beacon Player 15",
+      "shirt_number": 15,
+      "score": [
+        0,
+        1
+      ]
+    }
+  ],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 3,
+    "kickoff_local": "2026-11-07T17:30:00",
+    "time_zone": "Europe/London",
+    "venue": "Oakmere Park"
+  },
+  "home_club": {
+    "club_id": "S15",
+    "name": "Oakmere FC",
+    "short_name": "Oakmere",
+    "stadium": "Oakmere Park",
+    "colors": {
+      "primary": "#D08571",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S02",
+    "name": "Beacon FC",
+    "short_name": "Beacon",
+    "stadium": "Beacon Park",
+    "colors": {
+      "primary": "#6C9D40",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  }
+}

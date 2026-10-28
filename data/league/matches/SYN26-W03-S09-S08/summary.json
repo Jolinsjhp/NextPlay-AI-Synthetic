@@ -1,0 +1,150 @@
+{
+  "match_id": "SYN26-W03-S09-S08",
+  "seed": 20264037,
+  "duration_seconds": 6000,
+  "tracking_hz": 5,
+  "tracking_frames": 30001,
+  "player_position_records": 655714,
+  "state_snapshots": 6001,
+  "event_count": 4760,
+  "event_counts": {
+    "period_start": 2,
+    "possession_change": 657,
+    "restart": 28,
+    "pressure": 679,
+    "carry": 644,
+    "pass": 2058,
+    "interception": 633,
+    "shot": 21,
+    "stoppage": 14,
+    "yellow_card": 2,
+    "save": 7,
+    "action_cancelled": 7,
+    "period_end": 2,
+    "substitution": 4,
+    "red_card": 1,
+    "match_end": 1
+  },
+  "final_score": [
+    1,
+    1
+  ],
+  "final_stats": {
+    "HOME": {
+      "passes": 996,
+      "completed_passes": 686,
+      "shots": 17,
+      "shots_on_target": 7,
+      "interceptions": 323,
+      "pressure_events": 313,
+      "possession_seconds": 2884.4,
+      "possession_pct": 50.15,
+      "pass_accuracy_pct": 68.88
+    },
+    "AWAY": {
+      "passes": 1062,
+      "completed_passes": 739,
+      "shots": 4,
+      "shots_on_target": 2,
+      "interceptions": 310,
+      "pressure_events": 366,
+      "possession_seconds": 2867.4,
+      "possession_pct": 49.85,
+      "pass_accuracy_pct": 69.59
+    }
+  },
+  "distance_m": {
+    "H01": 4849.6,
+    "H02": 12359.3,
+    "H03": 16236.0,
+    "H04": 16258.8,
+    "H05": 16171.6,
+    "H06": 11047.3,
+    "H07": 16741.9,
+    "H08": 16787.2,
+    "H09": 17069.3,
+    "H10": 17602.0,
+    "H11": 17032.9,
+    "A01": 5019.5,
+    "A02": 16116.1,
+    "A03": 16437.1,
+    "A04": 16544.1,
+    "A05": 14083.1,
+    "A06": 13751.6,
+    "A07": 17005.5,
+    "A08": 16991.3,
+    "A09": 16617.1,
+    "A10": 16997.4,
+    "A11": 11364.9,
+    "H12": 5696.3,
+    "H13": 0.0,
+    "H14": 3820.6,
+    "A12": 3112.7,
+    "A13": 5327.0,
+    "A14": 0.0
+  },
+  "goals": [
+    {
+      "t_ms": 1643000,
+      "period": 1,
+      "period_ms": 1643000,
+      "team_id": "AWAY",
+      "club_id": "S08",
+      "club_name": "Highridge FC",
+      "player_id": "A10",
+      "player_name": "Highridge Player 15",
+      "shirt_number": 15,
+      "score": [
+        0,
+        1
+      ]
+    },
+    {
+      "t_ms": 1729000,
+      "period": 1,
+      "period_ms": 1729000,
+      "team_id": "HOME",
+      "club_id": "S09",
+      "club_name": "Ivory FC",
+      "player_id": "H10",
+      "player_name": "Ivory Player 15",
+      "shirt_number": 15,
+      "score": [
+        1,
+        1
+      ]
+    }
+  ],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 3,
+    "kickoff_local": "2026-11-08T19:00:00",
+    "time_zone": "Europe/London",
+    "venue": "Ivory Park"
+  },
+  "home_club": {
+    "club_id": "S09",
+    "name": "Ivory FC",
+    "short_name": "Ivory",
+    "stadium": "Ivory Park",
+    "colors": {
+      "primary": "#7765F5",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S08",
+    "name": "Highridge FC",
+    "short_name": "Highridge",
+    "stadium": "Highridge Park",
+    "colors": {
+      "primary": "#EB32FC",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  }
+}

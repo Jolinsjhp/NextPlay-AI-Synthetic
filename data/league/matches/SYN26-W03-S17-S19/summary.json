@@ -1,0 +1,195 @@
+{
+  "match_id": "SYN26-W03-S17-S19",
+  "seed": 20264029,
+  "duration_seconds": 6000,
+  "tracking_hz": 5,
+  "tracking_frames": 30001,
+  "player_position_records": 656218,
+  "state_snapshots": 6001,
+  "event_count": 4582,
+  "event_counts": {
+    "period_start": 2,
+    "possession_change": 593,
+    "restart": 24,
+    "pressure": 789,
+    "carry": 770,
+    "pass": 1779,
+    "interception": 574,
+    "shot": 17,
+    "stoppage": 15,
+    "save": 2,
+    "yellow_card": 2,
+    "action_cancelled": 7,
+    "period_end": 2,
+    "substitution": 4,
+    "red_card": 1,
+    "match_end": 1
+  },
+  "final_score": [
+    3,
+    2
+  ],
+  "final_stats": {
+    "HOME": {
+      "passes": 891,
+      "completed_passes": 607,
+      "shots": 11,
+      "shots_on_target": 4,
+      "interceptions": 290,
+      "pressure_events": 358,
+      "possession_seconds": 2992.0,
+      "possession_pct": 52.24,
+      "pass_accuracy_pct": 68.13
+    },
+    "AWAY": {
+      "passes": 888,
+      "completed_passes": 598,
+      "shots": 6,
+      "shots_on_target": 3,
+      "interceptions": 284,
+      "pressure_events": 431,
+      "possession_seconds": 2735.8,
+      "possession_pct": 47.76,
+      "pass_accuracy_pct": 67.34
+    }
+  },
+  "distance_m": {
+    "H01": 4494.9,
+    "H02": 11796.9,
+    "H03": 16055.0,
+    "H04": 15594.3,
+    "H05": 15555.0,
+    "H06": 10480.1,
+    "H07": 16885.6,
+    "H08": 16313.3,
+    "H09": 16411.3,
+    "H10": 17069.0,
+    "H11": 16166.0,
+    "A01": 4581.9,
+    "A02": 15417.3,
+    "A03": 15888.9,
+    "A04": 15983.3,
+    "A05": 13768.1,
+    "A06": 13230.3,
+    "A07": 16981.8,
+    "A08": 16803.0,
+    "A09": 16319.6,
+    "A10": 16594.4,
+    "A11": 11083.9,
+    "H12": 5951.5,
+    "H13": 0.0,
+    "H14": 3793.9,
+    "A12": 3327.9,
+    "A13": 5196.9,
+    "A14": 0.0
+  },
+  "goals": [
+    {
+      "t_ms": 2244000,
+      "period": 1,
+      "period_ms": 2244000,
+      "team_id": "HOME",
+      "club_id": "S17",
+      "club_name": "Quartz FC",
+      "player_id": "H09",
+      "player_name": "Quartz Player 13",
+      "shirt_number": 13,
+      "score": [
+        1,
+        0
+      ]
+    },
+    {
+      "t_ms": 4292000,
+      "period": 2,
+      "period_ms": 1292000,
+      "team_id": "HOME",
+      "club_id": "S17",
+      "club_name": "Quartz FC",
+      "player_id": "H10",
+      "player_name": "Quartz Player 15",
+      "shirt_number": 15,
+      "score": [
+        2,
+        0
+      ]
+    },
+    {
+      "t_ms": 4759200,
+      "period": 2,
+      "period_ms": 1759200,
+      "team_id": "AWAY",
+      "club_id": "S19",
+      "club_name": "Silverbrook FC",
+      "player_id": "A10",
+      "player_name": "Silverbrook Player 15",
+      "shirt_number": 15,
+      "score": [
+        2,
+        1
+      ]
+    },
+    {
+      "t_ms": 5163000,
+      "period": 2,
+      "period_ms": 2163000,
+      "team_id": "HOME",
+      "club_id": "S17",
+      "club_name": "Quartz FC",
+      "player_id": "H10",
+      "player_name": "Quartz Player 15",
+      "shirt_number": 15,
+      "score": [
+        3,
+        1
+      ]
+    },
+    {
+      "t_ms": 5536800,
+      "period": 2,
+      "period_ms": 2536800,
+      "team_id": "AWAY",
+      "club_id": "S19",
+      "club_name": "Silverbrook FC",
+      "player_id": "A10",
+      "player_name": "Silverbrook Player 15",
+      "shirt_number": 15,
+      "score": [
+        3,
+        2
+      ]
+    }
+  ],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 3,
+    "kickoff_local": "2026-11-07T15:00:00",
+    "time_zone": "Europe/London",
+    "venue": "Quartz Park"
+  },
+  "home_club": {
+    "club_id": "S17",
+    "name": "Quartz FC",
+    "short_name": "Quartz",
+    "stadium": "Quartz Park",
+    "colors": {
+      "primary": "#687FA6",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S19",
+    "name": "Silverbrook FC",
+    "short_name": "Silverbrook",
+    "stadium": "Silverbrook Park",
+    "colors": {
+      "primary": "#ED75BF",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  }
+}

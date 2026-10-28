@@ -1,0 +1,150 @@
+{
+  "match_id": "SYN26-W01-S19-S02",
+  "seed": 20262029,
+  "duration_seconds": 6000,
+  "tracking_hz": 5,
+  "tracking_frames": 30001,
+  "player_position_records": 656012,
+  "state_snapshots": 6001,
+  "event_count": 4705,
+  "event_counts": {
+    "period_start": 2,
+    "possession_change": 649,
+    "restart": 24,
+    "pressure": 681,
+    "carry": 684,
+    "pass": 1985,
+    "interception": 629,
+    "shot": 17,
+    "stoppage": 10,
+    "save": 7,
+    "yellow_card": 2,
+    "action_cancelled": 7,
+    "period_end": 2,
+    "substitution": 4,
+    "red_card": 1,
+    "match_end": 1
+  },
+  "final_score": [
+    2,
+    0
+  ],
+  "final_stats": {
+    "HOME": {
+      "passes": 976,
+      "completed_passes": 663,
+      "shots": 10,
+      "shots_on_target": 6,
+      "interceptions": 316,
+      "pressure_events": 333,
+      "possession_seconds": 2900.4,
+      "possession_pct": 50.15,
+      "pass_accuracy_pct": 67.93
+    },
+    "AWAY": {
+      "passes": 1009,
+      "completed_passes": 693,
+      "shots": 7,
+      "shots_on_target": 3,
+      "interceptions": 313,
+      "pressure_events": 348,
+      "possession_seconds": 2882.6,
+      "possession_pct": 49.85,
+      "pass_accuracy_pct": 68.68
+    }
+  },
+  "distance_m": {
+    "H01": 4894.9,
+    "H02": 12201.0,
+    "H03": 16529.2,
+    "H04": 16373.6,
+    "H05": 16169.4,
+    "H06": 10905.1,
+    "H07": 16949.8,
+    "H08": 16538.7,
+    "H09": 16784.6,
+    "H10": 17034.3,
+    "H11": 16680.1,
+    "A01": 4865.9,
+    "A02": 16186.6,
+    "A03": 16362.5,
+    "A04": 16308.8,
+    "A05": 14218.7,
+    "A06": 13334.8,
+    "A07": 16967.0,
+    "A08": 16597.1,
+    "A09": 16707.3,
+    "A10": 17406.2,
+    "A11": 11289.7,
+    "H12": 6066.4,
+    "H13": 0.0,
+    "H14": 3907.6,
+    "A12": 3575.4,
+    "A13": 5485.1,
+    "A14": 0.0
+  },
+  "goals": [
+    {
+      "t_ms": 3060800,
+      "period": 2,
+      "period_ms": 60800,
+      "team_id": "HOME",
+      "club_id": "S19",
+      "club_name": "Silverbrook FC",
+      "player_id": "H10",
+      "player_name": "Silverbrook Player 15",
+      "shirt_number": 15,
+      "score": [
+        1,
+        0
+      ]
+    },
+    {
+      "t_ms": 5288000,
+      "period": 2,
+      "period_ms": 2288000,
+      "team_id": "HOME",
+      "club_id": "S19",
+      "club_name": "Silverbrook FC",
+      "player_id": "H12",
+      "player_name": "Silverbrook Player 11",
+      "shirt_number": 11,
+      "score": [
+        2,
+        0
+      ]
+    }
+  ],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 1,
+    "kickoff_local": "2026-10-24T15:00:00",
+    "time_zone": "Europe/London",
+    "venue": "Silverbrook Park"
+  },
+  "home_club": {
+    "club_id": "S19",
+    "name": "Silverbrook FC",
+    "short_name": "Silverbrook",
+    "stadium": "Silverbrook Park",
+    "colors": {
+      "primary": "#ED75BF",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S02",
+    "name": "Beacon FC",
+    "short_name": "Beacon",
+    "stadium": "Beacon Park",
+    "colors": {
+      "primary": "#6C9D40",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  }
+}

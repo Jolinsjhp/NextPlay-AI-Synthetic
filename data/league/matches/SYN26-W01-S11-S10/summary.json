@@ -1,0 +1,150 @@
+{
+  "match_id": "SYN26-W01-S11-S10",
+  "seed": 20262037,
+  "duration_seconds": 6000,
+  "tracking_hz": 5,
+  "tracking_frames": 30001,
+  "player_position_records": 655797,
+  "state_snapshots": 6001,
+  "event_count": 4722,
+  "event_counts": {
+    "period_start": 2,
+    "possession_change": 635,
+    "restart": 16,
+    "pressure": 740,
+    "carry": 725,
+    "pass": 1945,
+    "interception": 624,
+    "shot": 9,
+    "stoppage": 6,
+    "save": 3,
+    "yellow_card": 2,
+    "action_cancelled": 7,
+    "period_end": 2,
+    "substitution": 4,
+    "red_card": 1,
+    "match_end": 1
+  },
+  "final_score": [
+    1,
+    1
+  ],
+  "final_stats": {
+    "HOME": {
+      "passes": 974,
+      "completed_passes": 659,
+      "shots": 2,
+      "shots_on_target": 1,
+      "interceptions": 309,
+      "pressure_events": 341,
+      "possession_seconds": 3021.8,
+      "possession_pct": 51.82,
+      "pass_accuracy_pct": 67.66
+    },
+    "AWAY": {
+      "passes": 971,
+      "completed_passes": 662,
+      "shots": 7,
+      "shots_on_target": 4,
+      "interceptions": 315,
+      "pressure_events": 399,
+      "possession_seconds": 2810.0,
+      "possession_pct": 48.18,
+      "pass_accuracy_pct": 68.18
+    }
+  },
+  "distance_m": {
+    "H01": 4732.1,
+    "H02": 11502.3,
+    "H03": 15902.6,
+    "H04": 16062.1,
+    "H05": 15942.6,
+    "H06": 10286.9,
+    "H07": 16514.5,
+    "H08": 16560.4,
+    "H09": 16388.2,
+    "H10": 17200.6,
+    "H11": 16750.8,
+    "A01": 4643.1,
+    "A02": 15692.5,
+    "A03": 16131.9,
+    "A04": 16107.5,
+    "A05": 13531.4,
+    "A06": 12711.2,
+    "A07": 17006.4,
+    "A08": 16677.0,
+    "A09": 16515.1,
+    "A10": 16889.5,
+    "A11": 10825.3,
+    "H12": 6035.5,
+    "H13": 0.0,
+    "H14": 4230.0,
+    "A12": 3770.3,
+    "A13": 5737.7,
+    "A14": 0.0
+  },
+  "goals": [
+    {
+      "t_ms": 3201600,
+      "period": 2,
+      "period_ms": 201600,
+      "team_id": "AWAY",
+      "club_id": "S10",
+      "club_name": "Juniper FC",
+      "player_id": "A10",
+      "player_name": "Juniper Player 15",
+      "shirt_number": 15,
+      "score": [
+        0,
+        1
+      ]
+    },
+    {
+      "t_ms": 4509200,
+      "period": 2,
+      "period_ms": 1509200,
+      "team_id": "HOME",
+      "club_id": "S11",
+      "club_name": "Kingswell FC",
+      "player_id": "H10",
+      "player_name": "Kingswell Player 15",
+      "shirt_number": 15,
+      "score": [
+        1,
+        1
+      ]
+    }
+  ],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 1,
+    "kickoff_local": "2026-10-25T19:00:00",
+    "time_zone": "Europe/London",
+    "venue": "Kingswell Park"
+  },
+  "home_club": {
+    "club_id": "S11",
+    "name": "Kingswell FC",
+    "short_name": "Kingswell",
+    "stadium": "Kingswell Park",
+    "colors": {
+      "primary": "#110151",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S10",
+    "name": "Juniper FC",
+    "short_name": "Juniper",
+    "stadium": "Juniper Park",
+    "colors": {
+      "primary": "#6ED1B4",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  }
+}

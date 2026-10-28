@@ -1,0 +1,119 @@
+{
+  "match_id": "SYN26-W02-S12-S07",
+  "seed": 20263035,
+  "duration_seconds": 6000,
+  "tracking_hz": 5,
+  "tracking_frames": 30001,
+  "player_position_records": 656115,
+  "state_snapshots": 6001,
+  "event_count": 4771,
+  "event_counts": {
+    "period_start": 2,
+    "possession_change": 639,
+    "restart": 16,
+    "pressure": 761,
+    "carry": 746,
+    "pass": 1945,
+    "interception": 627,
+    "shot": 9,
+    "save": 4,
+    "stoppage": 5,
+    "yellow_card": 2,
+    "action_cancelled": 7,
+    "period_end": 2,
+    "substitution": 4,
+    "red_card": 1,
+    "match_end": 1
+  },
+  "final_score": [
+    0,
+    0
+  ],
+  "final_stats": {
+    "HOME": {
+      "passes": 958,
+      "completed_passes": 644,
+      "shots": 5,
+      "shots_on_target": 3,
+      "interceptions": 313,
+      "pressure_events": 336,
+      "possession_seconds": 3056.0,
+      "possession_pct": 52.16,
+      "pass_accuracy_pct": 67.22
+    },
+    "AWAY": {
+      "passes": 987,
+      "completed_passes": 674,
+      "shots": 4,
+      "shots_on_target": 1,
+      "interceptions": 314,
+      "pressure_events": 425,
+      "possession_seconds": 2802.4,
+      "possession_pct": 47.84,
+      "pass_accuracy_pct": 68.29
+    }
+  },
+  "distance_m": {
+    "H01": 4631.8,
+    "H02": 11741.4,
+    "H03": 15887.6,
+    "H04": 15993.4,
+    "H05": 15647.3,
+    "H06": 10275.1,
+    "H07": 16553.5,
+    "H08": 16263.1,
+    "H09": 16194.4,
+    "H10": 17276.0,
+    "H11": 16248.8,
+    "A01": 4619.3,
+    "A02": 15548.6,
+    "A03": 15915.8,
+    "A04": 15946.9,
+    "A05": 13582.6,
+    "A06": 13146.6,
+    "A07": 16693.5,
+    "A08": 16630.8,
+    "A09": 16564.6,
+    "A10": 16734.6,
+    "A11": 10990.1,
+    "H12": 6230.6,
+    "H13": 0.0,
+    "H14": 3879.3,
+    "A12": 3483.8,
+    "A13": 5365.6,
+    "A14": 0.0
+  },
+  "goals": [],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 2,
+    "kickoff_local": "2026-11-01T16:30:00",
+    "time_zone": "Europe/London",
+    "venue": "Larkspur Park"
+  },
+  "home_club": {
+    "club_id": "S12",
+    "name": "Larkspur FC",
+    "short_name": "Larkspur",
+    "stadium": "Larkspur Park",
+    "colors": {
+      "primary": "#00ACB5",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S07",
+    "name": "Glenvale FC",
+    "short_name": "Glenvale",
+    "stadium": "Glenvale Park",
+    "colors": {
+      "primary": "#03B317",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  }
+}

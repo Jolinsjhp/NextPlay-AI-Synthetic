@@ -1,0 +1,119 @@
+{
+  "match_id": "SYN26-W03-S13-S04",
+  "seed": 20264033,
+  "duration_seconds": 6000,
+  "tracking_hz": 5,
+  "tracking_frames": 30001,
+  "player_position_records": 656085,
+  "state_snapshots": 6001,
+  "event_count": 4738,
+  "event_counts": {
+    "period_start": 2,
+    "possession_change": 631,
+    "restart": 17,
+    "pressure": 710,
+    "carry": 676,
+    "pass": 2047,
+    "interception": 618,
+    "shot": 10,
+    "save": 5,
+    "yellow_card": 2,
+    "stoppage": 5,
+    "action_cancelled": 7,
+    "period_end": 2,
+    "substitution": 4,
+    "red_card": 1,
+    "match_end": 1
+  },
+  "final_score": [
+    0,
+    0
+  ],
+  "final_stats": {
+    "HOME": {
+      "passes": 1011,
+      "completed_passes": 706,
+      "shots": 9,
+      "shots_on_target": 5,
+      "interceptions": 313,
+      "pressure_events": 335,
+      "possession_seconds": 2987.2,
+      "possession_pct": 51.01,
+      "pass_accuracy_pct": 69.83
+    },
+    "AWAY": {
+      "passes": 1036,
+      "completed_passes": 723,
+      "shots": 1,
+      "shots_on_target": 0,
+      "interceptions": 305,
+      "pressure_events": 375,
+      "possession_seconds": 2868.6,
+      "possession_pct": 48.99,
+      "pass_accuracy_pct": 69.79
+    }
+  },
+  "distance_m": {
+    "H01": 4717.1,
+    "H02": 11824.1,
+    "H03": 15947.1,
+    "H04": 16041.1,
+    "H05": 15991.3,
+    "H06": 10472.9,
+    "H07": 16663.6,
+    "H08": 16521.3,
+    "H09": 16879.5,
+    "H10": 17215.8,
+    "H11": 16657.2,
+    "A01": 4844.8,
+    "A02": 15746.9,
+    "A03": 16240.3,
+    "A04": 16260.8,
+    "A05": 13933.3,
+    "A06": 13509.9,
+    "A07": 16785.4,
+    "A08": 16608.0,
+    "A09": 16240.7,
+    "A10": 17276.8,
+    "A11": 11073.0,
+    "H12": 5975.8,
+    "H13": 0.0,
+    "H14": 4112.8,
+    "A12": 3116.2,
+    "A13": 5751.1,
+    "A14": 0.0
+  },
+  "goals": [],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 3,
+    "kickoff_local": "2026-11-08T14:00:00",
+    "time_zone": "Europe/London",
+    "venue": "Meadow Park"
+  },
+  "home_club": {
+    "club_id": "S13",
+    "name": "Meadow FC",
+    "short_name": "Meadow",
+    "stadium": "Meadow Park",
+    "colors": {
+      "primary": "#6CFEC4",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S04",
+    "name": "Driftwood FC",
+    "short_name": "Driftwood",
+    "stadium": "Driftwood Park",
+    "colors": {
+      "primary": "#FF9DE6",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "match_id": "SYN26-W02-S01-S19",
+  "seed": 20263028,
+  "duration_seconds": 6000,
+  "tracking_hz": 5,
+  "tracking_frames": 30001,
+  "player_position_records": 655593,
+  "state_snapshots": 6001,
+  "event_count": 4671,
+  "event_counts": {
+    "period_start": 2,
+    "possession_change": 585,
+    "restart": 20,
+    "carry": 789,
+    "pass": 1882,
+    "pressure": 780,
+    "interception": 570,
+    "shot": 13,
+    "stoppage": 9,
+    "yellow_card": 2,
+    "save": 4,
+    "action_cancelled": 7,
+    "period_end": 2,
+    "substitution": 4,
+    "red_card": 1,
+    "match_end": 1
+  },
+  "final_score": [
+    0,
+    0
+  ],
+  "final_stats": {
+    "HOME": {
+      "passes": 930,
+      "completed_passes": 645,
+      "shots": 6,
+      "shots_on_target": 2,
+      "interceptions": 285,
+      "pressure_events": 388,
+      "possession_seconds": 2855.6,
+      "possession_pct": 49.0,
+      "pass_accuracy_pct": 69.35
+    },
+    "AWAY": {
+      "passes": 952,
+      "completed_passes": 667,
+      "shots": 7,
+      "shots_on_target": 2,
+      "interceptions": 285,
+      "pressure_events": 392,
+      "possession_seconds": 2972.2,
+      "possession_pct": 51.0,
+      "pass_accuracy_pct": 70.06
+    }
+  },
+  "distance_m": {
+    "H01": 4626.1,
+    "H02": 11717.2,
+    "H03": 15690.3,
+    "H04": 15836.8,
+    "H05": 15720.8,
+    "H06": 10604.9,
+    "H07": 16291.9,
+    "H08": 16315.8,
+    "H09": 16596.4,
+    "H10": 17359.4,
+    "H11": 16241.7,
+    "A01": 4591.5,
+    "A02": 15864.9,
+    "A03": 16282.0,
+    "A04": 16112.3,
+    "A05": 13333.4,
+    "A06": 13134.3,
+    "A07": 16693.7,
+    "A08": 16204.2,
+    "A09": 16096.3,
+    "A10": 16423.4,
+    "A11": 10837.8,
+    "H12": 5978.3,
+    "H13": 0.0,
+    "H14": 3733.4,
+    "A12": 3421.1,
+    "A13": 5351.1,
+    "A14": 0.0
+  },
+  "goals": [],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 2,
+    "kickoff_local": "2026-10-31T12:30:00",
+    "time_zone": "Europe/London",
+    "venue": "Aster Park"
+  },
+  "home_club": {
+    "club_id": "S01",
+    "name": "Aster FC",
+    "short_name": "Aster",
+    "stadium": "Aster Park",
+    "colors": {
+      "primary": "#1742CB",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S19",
+    "name": "Silverbrook FC",
+    "short_name": "Silverbrook",
+    "stadium": "Silverbrook Park",
+    "colors": {
+      "primary": "#ED75BF",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  }
+}

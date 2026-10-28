@@ -1,0 +1,384 @@
+{
+  "video_id": "00000000000000000000000000000000",
+  "video_duration_ms": 5000,
+  "roster": [
+    {
+      "player_id": "H01",
+      "team_id": "HOME",
+      "jersey_number": 1,
+      "name": "Harbor Player 01",
+      "position": "GK"
+    },
+    {
+      "player_id": "H02",
+      "team_id": "HOME",
+      "jersey_number": 2,
+      "name": "Harbor Player 02",
+      "position": "OUTFIELD"
+    },
+    {
+      "player_id": "H03",
+      "team_id": "HOME",
+      "jersey_number": 3,
+      "name": "Harbor Player 03",
+      "position": "OUTFIELD"
+    },
+    {
+      "player_id": "H04",
+      "team_id": "HOME",
+      "jersey_number": 4,
+      "name": "Harbor Player 04",
+      "position": "OUTFIELD"
+    },
+    {
+      "player_id": "H05",
+      "team_id": "HOME",
+      "jersey_number": 5,
+      "name": "Harbor Player 05",
+      "position": "OUTFIELD"
+    },
+    {
+      "player_id": "H06",
+      "team_id": "HOME",
+      "jersey_number": 6,
+      "name": "Harbor Player 06",
+      "position": "OUTFIELD"
+    },
+    {
+      "player_id": "H07",
+      "team_id": "HOME",
+      "jersey_number": 7,
+      "name": "Harbor Player 07",
+      "position": "OUTFIELD"
+    },
+    {
+      "player_id": "H08",
+      "team_id": "HOME",
+      "jersey_number": 8,
+      "name": "Harbor Player 08",
+      "position": "OUTFIELD"
+    },
+    {
+      "player_id": "H09",
+      "team_id": "HOME",
+      "jersey_number": 9,
+      "name": "Harbor Player 09",
+      "position": "OUTFIELD"
+    },
+    {
+      "player_id": "H10",
+      "team_id": "HOME",
+      "jersey_number": 10,
+      "name": "Harbor Player 10",
+      "position": "OUTFIELD"
+    },
+    {
+      "player_id": "H11",
+      "team_id": "HOME",
+      "jersey_number": 11,
+      "name": "Harbor Player 11",
+      "position": "OUTFIELD"
+    },
+    {
+      "player_id": "A01",
+      "team_id": "AWAY",
+      "jersey_number": 1,
+      "name": "Mountain Player 01",
+      "position": "GK"
+    },
+    {
+      "player_id": "A02",
+      "team_id": "AWAY",
+      "jersey_number": 2,
+      "name": "Mountain Player 02",
+      "position": "OUTFIELD"
+    },
+    {
+      "player_id": "A03",
+      "team_id": "AWAY",
+      "jersey_number": 3,
+      "name": "Mountain Player 03",
+      "position": "OUTFIELD"
+    },
+    {
+      "player_id": "A04",
+      "team_id": "AWAY",
+      "jersey_number": 4,
+      "name": "Mountain Player 04",
+      "position": "OUTFIELD"
+    },
+    {
+      "player_id": "A05",
+      "team_id": "AWAY",
+      "jersey_number": 5,
+      "name": "Mountain Player 05",
+      "position": "OUTFIELD"
+    },
+    {
+      "player_id": "A06",
+      "team_id": "AWAY",
+      "jersey_number": 6,
+      "name": "Mountain Player 06",
+      "position": "OUTFIELD"
+    },
+    {
+      "player_id": "A07",
+      "team_id": "AWAY",
+      "jersey_number": 7,
+      "name": "Mountain Player 07",
+      "position": "OUTFIELD"
+    },
+    {
+      "player_id": "A08",
+      "team_id": "AWAY",
+      "jersey_number": 8,
+      "name": "Mountain Player 08",
+      "position": "OUTFIELD"
+    },
+    {
+      "player_id": "A09",
+      "team_id": "AWAY",
+      "jersey_number": 9,
+      "name": "Mountain Player 09",
+      "position": "OUTFIELD"
+    },
+    {
+      "player_id": "A10",
+      "team_id": "AWAY",
+      "jersey_number": 10,
+      "name": "Mountain Player 10",
+      "position": "OUTFIELD"
+    },
+    {
+      "player_id": "A11",
+      "team_id": "AWAY",
+      "jersey_number": 11,
+      "name": "Mountain Player 11",
+      "position": "OUTFIELD"
+    }
+  ],
+  "frames": [
+    {
+      "video_ms": 1000,
+      "period": 1,
+      "period_ms": 30000,
+      "score": [
+        0,
+        0
+      ],
+      "home_attacks": "positive_x",
+      "actor_id": "H10",
+      "ball": [
+        0.6251809523809524,
+        0.6022205882352941
+      ],
+      "players": [
+        {
+          "player_id": "H01",
+          "image": [
+            0.056428571428571425,
+            0.5127499999999999
+          ]
+        },
+        {
+          "player_id": "H02",
+          "image": [
+            0.3388285714285714,
+            0.12977941176470587
+          ]
+        },
+        {
+          "player_id": "H03",
+          "image": [
+            0.35642857142857143,
+            0.36813235294117647
+          ]
+        },
+        {
+          "player_id": "H04",
+          "image": [
+            0.3511809523809524,
+            0.661264705882353
+          ]
+        },
+        {
+          "player_id": "H05",
+          "image": [
+            0.3270095238095238,
+            0.9031470588235294
+          ]
+        },
+        {
+          "player_id": "H06",
+          "image": [
+            0.5188571428571428,
+            0.2740294117647059
+          ]
+        },
+        {
+          "player_id": "H07",
+          "image": [
+            0.49944761904761903,
+            0.4938088235294118
+          ]
+        },
+        {
+          "player_id": "H08",
+          "image": [
+            0.5284190476190477,
+            0.7499558823529412
+          ]
+        },
+        {
+          "player_id": "H09",
+          "image": [
+            0.7005904761904762,
+            0.18432352941176472
+          ]
+        },
+        {
+          "player_id": "H10",
+          "image": [
+            0.621847619047619,
+            0.6022205882352941
+          ]
+        },
+        {
+          "player_id": "H11",
+          "image": [
+            0.6843714285714285,
+            0.85
+          ]
+        },
+        {
+          "player_id": "A01",
+          "image": [
+            0.954047619047619,
+            0.5127499999999999
+          ]
+        },
+        {
+          "player_id": "A02",
+          "image": [
+            0.8340666666666666,
+            0.16120588235294117
+          ]
+        },
+        {
+          "player_id": "A03",
+          "image": [
+            0.796247619047619,
+            0.4022352941176471
+          ]
+        },
+        {
+          "player_id": "A04",
+          "image": [
+            0.795952380952381,
+            0.6406617647058823
+          ]
+        },
+        {
+          "player_id": "A05",
+          "image": [
+            0.8333904761904762,
+            0.8612794117647059
+          ]
+        },
+        {
+          "player_id": "A06",
+          "image": [
+            0.6637619047619047,
+            0.27964705882352936
+          ]
+        },
+        {
+          "player_id": "A07",
+          "image": [
+            0.5317428571428571,
+            0.5525735294117647
+          ]
+        },
+        {
+          "player_id": "A08",
+          "image": [
+            0.6641333333333332,
+            0.7582941176470588
+          ]
+        },
+        {
+          "player_id": "A09",
+          "image": [
+            0.47194285714285716,
+            0.14344117647058824
+          ]
+        },
+        {
+          "player_id": "A10",
+          "image": [
+            0.5627523809523809,
+            0.5802058823529412
+          ]
+        },
+        {
+          "player_id": "A11",
+          "image": [
+            0.46271428571428574,
+            0.8823676470588235
+          ]
+        }
+      ],
+      "landmarks": [
+        {
+          "image": [
+            0,
+            0
+          ],
+          "pitch": [
+            0,
+            0
+          ]
+        },
+        {
+          "image": [
+            1,
+            0
+          ],
+          "pitch": [
+            105,
+            0
+          ]
+        },
+        {
+          "image": [
+            1,
+            1
+          ],
+          "pitch": [
+            105,
+            68
+          ]
+        },
+        {
+          "image": [
+            0,
+            1
+          ],
+          "pitch": [
+            0,
+            68
+          ]
+        }
+      ],
+      "confirmed": {
+        "calibration_reviewed": true,
+        "identities_reviewed": true,
+        "positions_reviewed": true,
+        "coverage_complete": true,
+        "ball_on_ground": true,
+        "in_play": true
+      }
+    }
+  ],
+  "rights_confirmed": true
+}

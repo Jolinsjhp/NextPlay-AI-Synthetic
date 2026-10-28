@@ -1,0 +1,165 @@
+{
+  "match_id": "SYN26-W03-S18-S01",
+  "seed": 20264028,
+  "duration_seconds": 6000,
+  "tracking_hz": 5,
+  "tracking_frames": 30001,
+  "player_position_records": 656402,
+  "state_snapshots": 6001,
+  "event_count": 4741,
+  "event_counts": {
+    "period_start": 2,
+    "possession_change": 642,
+    "restart": 24,
+    "pressure": 759,
+    "carry": 754,
+    "pass": 1886,
+    "interception": 623,
+    "shot": 17,
+    "stoppage": 9,
+    "save": 8,
+    "yellow_card": 2,
+    "action_cancelled": 7,
+    "period_end": 2,
+    "substitution": 4,
+    "red_card": 1,
+    "match_end": 1
+  },
+  "final_score": [
+    2,
+    1
+  ],
+  "final_stats": {
+    "HOME": {
+      "passes": 974,
+      "completed_passes": 661,
+      "shots": 7,
+      "shots_on_target": 4,
+      "interceptions": 310,
+      "pressure_events": 363,
+      "possession_seconds": 3015.2,
+      "possession_pct": 52.2,
+      "pass_accuracy_pct": 67.86
+    },
+    "AWAY": {
+      "passes": 912,
+      "completed_passes": 602,
+      "shots": 10,
+      "shots_on_target": 7,
+      "interceptions": 313,
+      "pressure_events": 396,
+      "possession_seconds": 2760.6,
+      "possession_pct": 47.8,
+      "pass_accuracy_pct": 66.01
+    }
+  },
+  "distance_m": {
+    "H01": 4670.7,
+    "H02": 11661.3,
+    "H03": 15725.1,
+    "H04": 15576.5,
+    "H05": 15391.3,
+    "H06": 10432.5,
+    "H07": 16074.5,
+    "H08": 16135.8,
+    "H09": 16122.6,
+    "H10": 16408.8,
+    "H11": 16227.5,
+    "A01": 4595.7,
+    "A02": 15455.2,
+    "A03": 15610.6,
+    "A04": 15815.3,
+    "A05": 13563.0,
+    "A06": 12862.6,
+    "A07": 16147.6,
+    "A08": 16448.9,
+    "A09": 15956.6,
+    "A10": 16832.7,
+    "A11": 11307.5,
+    "H12": 5861.3,
+    "H13": 0.0,
+    "H14": 3760.2,
+    "A12": 3201.2,
+    "A13": 5200.0,
+    "A14": 0.0
+  },
+  "goals": [
+    {
+      "t_ms": 543400,
+      "period": 1,
+      "period_ms": 543400,
+      "team_id": "HOME",
+      "club_id": "S18",
+      "club_name": "Rivermist FC",
+      "player_id": "H09",
+      "player_name": "Rivermist Player 13",
+      "shirt_number": 13,
+      "score": [
+        1,
+        0
+      ]
+    },
+    {
+      "t_ms": 1202800,
+      "period": 1,
+      "period_ms": 1202800,
+      "team_id": "HOME",
+      "club_id": "S18",
+      "club_name": "Rivermist FC",
+      "player_id": "H10",
+      "player_name": "Rivermist Player 15",
+      "shirt_number": 15,
+      "score": [
+        2,
+        0
+      ]
+    },
+    {
+      "t_ms": 1308600,
+      "period": 1,
+      "period_ms": 1308600,
+      "team_id": "AWAY",
+      "club_id": "S01",
+      "club_name": "Aster FC",
+      "player_id": "A10",
+      "player_name": "Aster Player 15",
+      "shirt_number": 15,
+      "score": [
+        2,
+        1
+      ]
+    }
+  ],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 3,
+    "kickoff_local": "2026-11-07T12:30:00",
+    "time_zone": "Europe/London",
+    "venue": "Rivermist Park"
+  },
+  "home_club": {
+    "club_id": "S18",
+    "name": "Rivermist FC",
+    "short_name": "Rivermist",
+    "stadium": "Rivermist Park",
+    "colors": {
+      "primary": "#6DE1F5",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S01",
+    "name": "Aster FC",
+    "short_name": "Aster",
+    "stadium": "Aster Park",
+    "colors": {
+      "primary": "#1742CB",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  }
+}

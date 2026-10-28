@@ -1,0 +1,119 @@
+{
+  "match_id": "SYN26-W03-S11-S06",
+  "seed": 20264035,
+  "duration_seconds": 6000,
+  "tracking_hz": 5,
+  "tracking_frames": 30001,
+  "player_position_records": 655601,
+  "state_snapshots": 6001,
+  "event_count": 4670,
+  "event_counts": {
+    "period_start": 2,
+    "possession_change": 601,
+    "restart": 20,
+    "carry": 732,
+    "pass": 1937,
+    "interception": 585,
+    "pressure": 750,
+    "shot": 13,
+    "stoppage": 10,
+    "save": 3,
+    "yellow_card": 2,
+    "action_cancelled": 7,
+    "period_end": 2,
+    "substitution": 4,
+    "red_card": 1,
+    "match_end": 1
+  },
+  "final_score": [
+    0,
+    0
+  ],
+  "final_stats": {
+    "HOME": {
+      "passes": 999,
+      "completed_passes": 703,
+      "shots": 4,
+      "shots_on_target": 1,
+      "interceptions": 289,
+      "pressure_events": 420,
+      "possession_seconds": 2863.8,
+      "possession_pct": 49.17,
+      "pass_accuracy_pct": 70.37
+    },
+    "AWAY": {
+      "passes": 938,
+      "completed_passes": 649,
+      "shots": 9,
+      "shots_on_target": 2,
+      "interceptions": 296,
+      "pressure_events": 330,
+      "possession_seconds": 2960.0,
+      "possession_pct": 50.83,
+      "pass_accuracy_pct": 69.19
+    }
+  },
+  "distance_m": {
+    "H01": 4794.3,
+    "H02": 11604.2,
+    "H03": 15993.1,
+    "H04": 15984.5,
+    "H05": 15763.1,
+    "H06": 10266.7,
+    "H07": 16870.9,
+    "H08": 16898.1,
+    "H09": 16227.3,
+    "H10": 17376.4,
+    "H11": 16949.2,
+    "A01": 4709.9,
+    "A02": 15668.1,
+    "A03": 16029.8,
+    "A04": 16056.2,
+    "A05": 13323.4,
+    "A06": 12858.6,
+    "A07": 16975.8,
+    "A08": 16910.8,
+    "A09": 15967.9,
+    "A10": 17143.8,
+    "A11": 11028.6,
+    "H12": 6225.9,
+    "H13": 0.0,
+    "H14": 4176.4,
+    "A12": 3422.7,
+    "A13": 5796.3,
+    "A14": 0.0
+  },
+  "goals": [],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 3,
+    "kickoff_local": "2026-11-08T16:30:00",
+    "time_zone": "Europe/London",
+    "venue": "Kingswell Park"
+  },
+  "home_club": {
+    "club_id": "S11",
+    "name": "Kingswell FC",
+    "short_name": "Kingswell",
+    "stadium": "Kingswell Park",
+    "colors": {
+      "primary": "#110151",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S06",
+    "name": "Fairhaven FC",
+    "short_name": "Fairhaven",
+    "stadium": "Fairhaven Park",
+    "colors": {
+      "primary": "#8694D0",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  }
+}

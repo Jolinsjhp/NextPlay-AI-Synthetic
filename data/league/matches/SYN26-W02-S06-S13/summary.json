@@ -1,0 +1,135 @@
+{
+  "match_id": "SYN26-W02-S06-S13",
+  "seed": 20263034,
+  "duration_seconds": 6000,
+  "tracking_hz": 5,
+  "tracking_frames": 30001,
+  "player_position_records": 656332,
+  "state_snapshots": 6001,
+  "event_count": 4734,
+  "event_counts": {
+    "period_start": 2,
+    "possession_change": 641,
+    "restart": 29,
+    "pressure": 762,
+    "carry": 753,
+    "pass": 1870,
+    "interception": 616,
+    "shot": 22,
+    "save": 8,
+    "stoppage": 14,
+    "yellow_card": 2,
+    "action_cancelled": 7,
+    "period_end": 2,
+    "substitution": 4,
+    "red_card": 1,
+    "match_end": 1
+  },
+  "final_score": [
+    1,
+    0
+  ],
+  "final_stats": {
+    "HOME": {
+      "passes": 936,
+      "completed_passes": 628,
+      "shots": 11,
+      "shots_on_target": 4,
+      "interceptions": 308,
+      "pressure_events": 400,
+      "possession_seconds": 2812.4,
+      "possession_pct": 48.83,
+      "pass_accuracy_pct": 67.09
+    },
+    "AWAY": {
+      "passes": 934,
+      "completed_passes": 626,
+      "shots": 11,
+      "shots_on_target": 5,
+      "interceptions": 308,
+      "pressure_events": 362,
+      "possession_seconds": 2947.4,
+      "possession_pct": 51.17,
+      "pass_accuracy_pct": 67.02
+    }
+  },
+  "distance_m": {
+    "H01": 4642.2,
+    "H02": 11942.9,
+    "H03": 16241.0,
+    "H04": 16120.5,
+    "H05": 15898.9,
+    "H06": 10700.2,
+    "H07": 16865.3,
+    "H08": 16955.1,
+    "H09": 16296.2,
+    "H10": 17261.7,
+    "H11": 16575.2,
+    "A01": 4608.4,
+    "A02": 15685.8,
+    "A03": 16108.9,
+    "A04": 15969.8,
+    "A05": 13866.3,
+    "A06": 13458.1,
+    "A07": 17101.8,
+    "A08": 16682.0,
+    "A09": 16272.0,
+    "A10": 17336.6,
+    "A11": 10884.2,
+    "H12": 5748.6,
+    "H13": 0.0,
+    "H14": 3816.7,
+    "A12": 3204.3,
+    "A13": 5608.4,
+    "A14": 0.0
+  },
+  "goals": [
+    {
+      "t_ms": 4754600,
+      "period": 2,
+      "period_ms": 1754600,
+      "team_id": "HOME",
+      "club_id": "S06",
+      "club_name": "Fairhaven FC",
+      "player_id": "H10",
+      "player_name": "Fairhaven Player 15",
+      "shirt_number": 15,
+      "score": [
+        1,
+        0
+      ]
+    }
+  ],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 2,
+    "kickoff_local": "2026-11-01T14:00:00",
+    "time_zone": "Europe/London",
+    "venue": "Fairhaven Park"
+  },
+  "home_club": {
+    "club_id": "S06",
+    "name": "Fairhaven FC",
+    "short_name": "Fairhaven",
+    "stadium": "Fairhaven Park",
+    "colors": {
+      "primary": "#8694D0",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S13",
+    "name": "Meadow FC",
+    "short_name": "Meadow",
+    "stadium": "Meadow Park",
+    "colors": {
+      "primary": "#6CFEC4",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  }
+}

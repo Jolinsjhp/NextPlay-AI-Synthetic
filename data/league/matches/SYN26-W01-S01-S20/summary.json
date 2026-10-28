@@ -1,0 +1,119 @@
+{
+  "match_id": "SYN26-W01-S01-S20",
+  "seed": 20262028,
+  "duration_seconds": 6000,
+  "tracking_hz": 5,
+  "tracking_frames": 30001,
+  "player_position_records": 656009,
+  "state_snapshots": 6001,
+  "event_count": 4670,
+  "event_counts": {
+    "period_start": 2,
+    "possession_change": 599,
+    "restart": 21,
+    "pressure": 742,
+    "carry": 764,
+    "pass": 1914,
+    "interception": 583,
+    "shot": 14,
+    "save": 6,
+    "stoppage": 8,
+    "yellow_card": 2,
+    "action_cancelled": 7,
+    "period_end": 2,
+    "substitution": 4,
+    "red_card": 1,
+    "match_end": 1
+  },
+  "final_score": [
+    0,
+    0
+  ],
+  "final_stats": {
+    "HOME": {
+      "passes": 912,
+      "completed_passes": 624,
+      "shots": 11,
+      "shots_on_target": 3,
+      "interceptions": 295,
+      "pressure_events": 400,
+      "possession_seconds": 2722.4,
+      "possession_pct": 46.71,
+      "pass_accuracy_pct": 68.42
+    },
+    "AWAY": {
+      "passes": 1002,
+      "completed_passes": 707,
+      "shots": 3,
+      "shots_on_target": 3,
+      "interceptions": 288,
+      "pressure_events": 342,
+      "possession_seconds": 3105.4,
+      "possession_pct": 53.29,
+      "pass_accuracy_pct": 70.56
+    }
+  },
+  "distance_m": {
+    "H01": 4533.4,
+    "H02": 11671.1,
+    "H03": 15800.7,
+    "H04": 15933.1,
+    "H05": 15656.2,
+    "H06": 10200.0,
+    "H07": 16777.5,
+    "H08": 16419.4,
+    "H09": 16136.0,
+    "H10": 17282.2,
+    "H11": 16743.4,
+    "A01": 4726.8,
+    "A02": 15455.1,
+    "A03": 15901.7,
+    "A04": 15708.9,
+    "A05": 13528.4,
+    "A06": 12943.8,
+    "A07": 16300.5,
+    "A08": 16375.4,
+    "A09": 16090.6,
+    "A10": 16783.6,
+    "A11": 11111.4,
+    "H12": 5705.7,
+    "H13": 0.0,
+    "H14": 3949.6,
+    "A12": 3081.7,
+    "A13": 5202.4,
+    "A14": 0.0
+  },
+  "goals": [],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 1,
+    "kickoff_local": "2026-10-24T12:30:00",
+    "time_zone": "Europe/London",
+    "venue": "Aster Park"
+  },
+  "home_club": {
+    "club_id": "S01",
+    "name": "Aster FC",
+    "short_name": "Aster",
+    "stadium": "Aster Park",
+    "colors": {
+      "primary": "#1742CB",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S20",
+    "name": "Thornvale FC",
+    "short_name": "Thornvale",
+    "stadium": "Thornvale Park",
+    "colors": {
+      "primary": "#2C2841",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  }
+}

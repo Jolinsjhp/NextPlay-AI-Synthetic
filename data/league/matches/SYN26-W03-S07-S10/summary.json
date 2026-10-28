@@ -1,0 +1,135 @@
+{
+  "match_id": "SYN26-W03-S07-S10",
+  "seed": 20264036,
+  "duration_seconds": 6000,
+  "tracking_hz": 5,
+  "tracking_frames": 30001,
+  "player_position_records": 655622,
+  "state_snapshots": 6001,
+  "event_count": 4717,
+  "event_counts": {
+    "period_start": 2,
+    "possession_change": 622,
+    "restart": 16,
+    "carry": 724,
+    "pressure": 745,
+    "pass": 1962,
+    "interception": 611,
+    "shot": 9,
+    "stoppage": 8,
+    "save": 1,
+    "yellow_card": 2,
+    "action_cancelled": 7,
+    "period_end": 2,
+    "substitution": 4,
+    "red_card": 1,
+    "match_end": 1
+  },
+  "final_score": [
+    1,
+    0
+  ],
+  "final_stats": {
+    "HOME": {
+      "passes": 990,
+      "completed_passes": 686,
+      "shots": 6,
+      "shots_on_target": 1,
+      "interceptions": 307,
+      "pressure_events": 360,
+      "possession_seconds": 2976.6,
+      "possession_pct": 51.02,
+      "pass_accuracy_pct": 69.29
+    },
+    "AWAY": {
+      "passes": 972,
+      "completed_passes": 665,
+      "shots": 3,
+      "shots_on_target": 1,
+      "interceptions": 304,
+      "pressure_events": 385,
+      "possession_seconds": 2857.8,
+      "possession_pct": 48.98,
+      "pass_accuracy_pct": 68.42
+    }
+  },
+  "distance_m": {
+    "H01": 4665.7,
+    "H02": 11807.5,
+    "H03": 16033.5,
+    "H04": 16156.2,
+    "H05": 15958.7,
+    "H06": 10828.5,
+    "H07": 16504.6,
+    "H08": 16747.3,
+    "H09": 16332.9,
+    "H10": 17115.4,
+    "H11": 16450.1,
+    "A01": 4721.6,
+    "A02": 15880.4,
+    "A03": 16036.7,
+    "A04": 16077.0,
+    "A05": 13449.2,
+    "A06": 13457.5,
+    "A07": 16547.5,
+    "A08": 16602.5,
+    "A09": 16754.1,
+    "A10": 16938.3,
+    "A11": 10920.0,
+    "H12": 5656.4,
+    "H13": 0.0,
+    "H14": 4017.8,
+    "A12": 3073.2,
+    "A13": 5618.4,
+    "A14": 0.0
+  },
+  "goals": [
+    {
+      "t_ms": 3745400,
+      "period": 2,
+      "period_ms": 745400,
+      "team_id": "HOME",
+      "club_id": "S07",
+      "club_name": "Glenvale FC",
+      "player_id": "H10",
+      "player_name": "Glenvale Player 15",
+      "shirt_number": 15,
+      "score": [
+        1,
+        0
+      ]
+    }
+  ],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 3,
+    "kickoff_local": "2026-11-08T16:30:00",
+    "time_zone": "Europe/London",
+    "venue": "Glenvale Park"
+  },
+  "home_club": {
+    "club_id": "S07",
+    "name": "Glenvale FC",
+    "short_name": "Glenvale",
+    "stadium": "Glenvale Park",
+    "colors": {
+      "primary": "#03B317",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S10",
+    "name": "Juniper FC",
+    "short_name": "Juniper",
+    "stadium": "Juniper Park",
+    "colors": {
+      "primary": "#6ED1B4",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  }
+}

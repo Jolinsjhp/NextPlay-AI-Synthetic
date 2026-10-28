@@ -1,0 +1,6 @@
+FROM python:3.12-slim
+WORKDIR /app
+COPY . .
+ENV TOUCHLINE_HOST=0.0.0.0 TOUCHLINE_PORT=5173
+EXPOSE 5173
+CMD ["python", "server.py"]

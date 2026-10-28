@@ -1,0 +1,119 @@
+{
+  "match_id": "SYN26-W02-S14-S05",
+  "seed": 20263033,
+  "duration_seconds": 6000,
+  "tracking_hz": 5,
+  "tracking_frames": 30001,
+  "player_position_records": 655938,
+  "state_snapshots": 6001,
+  "event_count": 4833,
+  "event_counts": {
+    "period_start": 2,
+    "possession_change": 667,
+    "restart": 22,
+    "pressure": 756,
+    "carry": 711,
+    "pass": 1978,
+    "interception": 650,
+    "shot": 15,
+    "save": 7,
+    "stoppage": 8,
+    "yellow_card": 2,
+    "action_cancelled": 7,
+    "period_end": 2,
+    "substitution": 4,
+    "red_card": 1,
+    "match_end": 1
+  },
+  "final_score": [
+    0,
+    0
+  ],
+  "final_stats": {
+    "HOME": {
+      "passes": 931,
+      "completed_passes": 610,
+      "shots": 11,
+      "shots_on_target": 5,
+      "interceptions": 329,
+      "pressure_events": 384,
+      "possession_seconds": 2806.2,
+      "possession_pct": 48.19,
+      "pass_accuracy_pct": 65.52
+    },
+    "AWAY": {
+      "passes": 1047,
+      "completed_passes": 718,
+      "shots": 4,
+      "shots_on_target": 2,
+      "interceptions": 321,
+      "pressure_events": 372,
+      "possession_seconds": 3017.6,
+      "possession_pct": 51.81,
+      "pass_accuracy_pct": 68.58
+    }
+  },
+  "distance_m": {
+    "H01": 4683.3,
+    "H02": 11774.6,
+    "H03": 16138.0,
+    "H04": 16075.3,
+    "H05": 15876.1,
+    "H06": 10563.6,
+    "H07": 16690.1,
+    "H08": 16249.1,
+    "H09": 16653.1,
+    "H10": 17269.8,
+    "H11": 17007.9,
+    "A01": 4776.6,
+    "A02": 15674.9,
+    "A03": 16146.7,
+    "A04": 16356.7,
+    "A05": 13937.2,
+    "A06": 12842.4,
+    "A07": 16932.0,
+    "A08": 16775.2,
+    "A09": 16246.8,
+    "A10": 16455.2,
+    "A11": 10787.2,
+    "H12": 5916.9,
+    "H13": 0.0,
+    "H14": 4145.9,
+    "A12": 3592.3,
+    "A13": 5318.7,
+    "A14": 0.0
+  },
+  "goals": [],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 2,
+    "kickoff_local": "2026-11-01T14:00:00",
+    "time_zone": "Europe/London",
+    "venue": "Northstar Park"
+  },
+  "home_club": {
+    "club_id": "S14",
+    "name": "Northstar FC",
+    "short_name": "Northstar",
+    "stadium": "Northstar Park",
+    "colors": {
+      "primary": "#EB1CB9",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S05",
+    "name": "Ember FC",
+    "short_name": "Ember",
+    "stadium": "Ember Park",
+    "colors": {
+      "primary": "#48AE64",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "match_id": "SYN26-W01-S07-S14",
+  "seed": 20262034,
+  "duration_seconds": 6000,
+  "tracking_hz": 5,
+  "tracking_frames": 30001,
+  "player_position_records": 655577,
+  "state_snapshots": 6001,
+  "event_count": 4788,
+  "event_counts": {
+    "period_start": 2,
+    "possession_change": 654,
+    "restart": 18,
+    "pressure": 716,
+    "carry": 715,
+    "pass": 2003,
+    "interception": 641,
+    "shot": 11,
+    "save": 4,
+    "yellow_card": 2,
+    "stoppage": 7,
+    "action_cancelled": 7,
+    "period_end": 2,
+    "substitution": 4,
+    "red_card": 1,
+    "match_end": 1
+  },
+  "final_score": [
+    1,
+    1
+  ],
+  "final_stats": {
+    "HOME": {
+      "passes": 1038,
+      "completed_passes": 717,
+      "shots": 5,
+      "shots_on_target": 2,
+      "interceptions": 320,
+      "pressure_events": 323,
+      "possession_seconds": 3071.8,
+      "possession_pct": 52.78,
+      "pass_accuracy_pct": 69.08
+    },
+    "AWAY": {
+      "passes": 965,
+      "completed_passes": 645,
+      "shots": 6,
+      "shots_on_target": 4,
+      "interceptions": 321,
+      "pressure_events": 393,
+      "possession_seconds": 2748.0,
+      "possession_pct": 47.22,
+      "pass_accuracy_pct": 66.84
+    }
+  },
+  "distance_m": {
+    "H01": 4712.8,
+    "H02": 12150.7,
+    "H03": 16366.8,
+    "H04": 16251.1,
+    "H05": 16149.5,
+    "H06": 10315.8,
+    "H07": 17050.1,
+    "H08": 16887.3,
+    "H09": 16430.3,
+    "H10": 16926.0,
+    "H11": 16718.2,
+    "A01": 4708.5,
+    "A02": 16015.1,
+    "A03": 16363.9,
+    "A04": 16224.9,
+    "A05": 13875.2,
+    "A06": 13444.9,
+    "A07": 17156.8,
+    "A08": 16968.3,
+    "A09": 16834.2,
+    "A10": 17630.5,
+    "A11": 11203.2,
+    "H12": 6445.1,
+    "H13": 0.0,
+    "H14": 3929.0,
+    "A12": 3362.2,
+    "A13": 5762.5,
+    "A14": 0.0
+  },
+  "goals": [
+    {
+      "t_ms": 2020200,
+      "period": 1,
+      "period_ms": 2020200,
+      "team_id": "HOME",
+      "club_id": "S07",
+      "club_name": "Glenvale FC",
+      "player_id": "H10",
+      "player_name": "Glenvale Player 15",
+      "shirt_number": 15,
+      "score": [
+        1,
+        0
+      ]
+    },
+    {
+      "t_ms": 3277000,
+      "period": 2,
+      "period_ms": 277000,
+      "team_id": "AWAY",
+      "club_id": "S14",
+      "club_name": "Northstar FC",
+      "player_id": "A10",
+      "player_name": "Northstar Player 15",
+      "shirt_number": 15,
+      "score": [
+        1,
+        1
+      ]
+    }
+  ],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 1,
+    "kickoff_local": "2026-10-25T14:00:00",
+    "time_zone": "Europe/London",
+    "venue": "Glenvale Park"
+  },
+  "home_club": {
+    "club_id": "S07",
+    "name": "Glenvale FC",
+    "short_name": "Glenvale",
+    "stadium": "Glenvale Park",
+    "colors": {
+      "primary": "#03B317",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S14",
+    "name": "Northstar FC",
+    "short_name": "Northstar",
+    "stadium": "Northstar Park",
+    "colors": {
+      "primary": "#EB1CB9",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "match_id": "SYN26-W02-S10-S09",
+  "seed": 20263037,
+  "duration_seconds": 6000,
+  "tracking_hz": 5,
+  "tracking_frames": 30001,
+  "player_position_records": 656236,
+  "state_snapshots": 6001,
+  "event_count": 4751,
+  "event_counts": {
+    "period_start": 2,
+    "possession_change": 630,
+    "restart": 22,
+    "pressure": 752,
+    "carry": 739,
+    "pass": 1947,
+    "interception": 612,
+    "shot": 15,
+    "stoppage": 8,
+    "save": 7,
+    "yellow_card": 2,
+    "action_cancelled": 7,
+    "period_end": 2,
+    "substitution": 4,
+    "red_card": 1,
+    "match_end": 1
+  },
+  "final_score": [
+    0,
+    0
+  ],
+  "final_stats": {
+    "HOME": {
+      "passes": 1009,
+      "completed_passes": 702,
+      "shots": 7,
+      "shots_on_target": 1,
+      "interceptions": 305,
+      "pressure_events": 381,
+      "possession_seconds": 3002.4,
+      "possession_pct": 51.55,
+      "pass_accuracy_pct": 69.57
+    },
+    "AWAY": {
+      "passes": 938,
+      "completed_passes": 633,
+      "shots": 8,
+      "shots_on_target": 6,
+      "interceptions": 307,
+      "pressure_events": 371,
+      "possession_seconds": 2821.4,
+      "possession_pct": 48.45,
+      "pass_accuracy_pct": 67.48
+    }
+  },
+  "distance_m": {
+    "H01": 4663.5,
+    "H02": 12002.1,
+    "H03": 16251.1,
+    "H04": 16247.4,
+    "H05": 16137.1,
+    "H06": 10512.9,
+    "H07": 16667.8,
+    "H08": 16452.9,
+    "H09": 16381.2,
+    "H10": 16816.8,
+    "H11": 16576.6,
+    "A01": 4659.6,
+    "A02": 15844.6,
+    "A03": 16112.3,
+    "A04": 16075.1,
+    "A05": 13830.5,
+    "A06": 13244.0,
+    "A07": 16664.5,
+    "A08": 16817.1,
+    "A09": 16452.6,
+    "A10": 17266.5,
+    "A11": 11147.0,
+    "H12": 5853.4,
+    "H13": 0.0,
+    "H14": 3738.3,
+    "A12": 3254.0,
+    "A13": 5857.6,
+    "A14": 0.0
+  },
+  "goals": [],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 2,
+    "kickoff_local": "2026-11-01T19:00:00",
+    "time_zone": "Europe/London",
+    "venue": "Juniper Park"
+  },
+  "home_club": {
+    "club_id": "S10",
+    "name": "Juniper FC",
+    "short_name": "Juniper",
+    "stadium": "Juniper Park",
+    "colors": {
+      "primary": "#6ED1B4",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S09",
+    "name": "Ivory FC",
+    "short_name": "Ivory",
+    "stadium": "Ivory Park",
+    "colors": {
+      "primary": "#7765F5",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  }
+}

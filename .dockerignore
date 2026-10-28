@@ -1,0 +1,9 @@
+.git
+.local
+.env
+.env.*
+node_modules
+__pycache__
+**/__pycache__
+artifacts
+public-demo

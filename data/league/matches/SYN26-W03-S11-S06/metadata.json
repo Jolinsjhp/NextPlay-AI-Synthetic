@@ -1,0 +1,830 @@
+{
+  "schema_version": "1.0.0",
+  "match_id": "SYN26-W03-S11-S06",
+  "synthetic": true,
+  "seed": 20264035,
+  "generator": "generate.py v2.3.0",
+  "action_policy": {
+    "revision": "player-actions-1",
+    "multipliers": {
+      "pass": 1.0,
+      "carry": 1.0,
+      "shot": 1.0
+    },
+    "attribute_strength": 1.0,
+    "scope": "pass/carry/foot-shot selection; radar effects are bounded hypotheses, not fitted player outcomes"
+  },
+  "duration_ms": 6000000,
+  "tracking_hz": 5,
+  "pitch": {
+    "length_m": 105,
+    "width_m": 68,
+    "origin": "top_left",
+    "x_axis": "right",
+    "y_axis": "down",
+    "z_axis": "up"
+  },
+  "periods": [
+    {
+      "period": 1,
+      "start_ms": 0,
+      "duration_ms": 3000000,
+      "regulation_ms": 2700000,
+      "home_attacks": "positive_x"
+    },
+    {
+      "period": 2,
+      "start_ms": 3000000,
+      "duration_ms": 3000000,
+      "regulation_ms": 2700000,
+      "home_attacks": "negative_x"
+    }
+  ],
+  "clock_note": "Two 45+5 minute periods; halftime break omitted. Use period and period_ms for displayed clock.",
+  "teams": [
+    {
+      "team_id": "HOME",
+      "club_id": "S11",
+      "name": "Kingswell FC",
+      "short_name": "Kingswell",
+      "stadium": "Kingswell Park",
+      "colors": {
+        "primary": "#110151",
+        "secondary": "#FFFFFF"
+      },
+      "formation": "4-3-3"
+    },
+    {
+      "team_id": "AWAY",
+      "club_id": "S06",
+      "name": "Fairhaven FC",
+      "short_name": "Fairhaven",
+      "stadium": "Fairhaven Park",
+      "colors": {
+        "primary": "#8694D0",
+        "secondary": "#FFFFFF"
+      },
+      "formation": "4-3-3"
+    }
+  ],
+  "players": [
+    {
+      "player_id": "H01",
+      "team_id": "HOME",
+      "jersey_number": 1,
+      "name": "Kingswell Player 01",
+      "position": "GK",
+      "position_detail": "GK",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "goalkeeper",
+        "attributes": {
+          "ATT": 85,
+          "TEC": 43,
+          "TAC": 67,
+          "DEF": 71,
+          "CRE": 64,
+          "BAL": 39,
+          "ANT": 50
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H02",
+      "team_id": "HOME",
+      "jersey_number": 2,
+      "name": "Kingswell Player 02",
+      "position": "LB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 50,
+          "TEC": 71,
+          "TAC": 70,
+          "DEF": 82,
+          "CRE": 72,
+          "BAL": 39,
+          "ANT": 70
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H03",
+      "team_id": "HOME",
+      "jersey_number": 4,
+      "name": "Kingswell Player 04",
+      "position": "LCB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 56,
+          "TEC": 75,
+          "TAC": 77,
+          "DEF": 44,
+          "CRE": 56,
+          "BAL": 70,
+          "ANT": 73
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H04",
+      "team_id": "HOME",
+      "jersey_number": 5,
+      "name": "Kingswell Player 05",
+      "position": "RCB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 48,
+          "TEC": 77,
+          "TAC": 71,
+          "DEF": 73,
+          "CRE": 50,
+          "BAL": 46,
+          "ANT": 60
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H05",
+      "team_id": "HOME",
+      "jersey_number": 3,
+      "name": "Kingswell Player 03",
+      "position": "RB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 38,
+          "TEC": 62,
+          "TAC": 35,
+          "DEF": 77,
+          "CRE": 55,
+          "BAL": 50,
+          "ANT": 81
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H06",
+      "team_id": "HOME",
+      "jersey_number": 9,
+      "name": "Kingswell Player 09",
+      "position": "LCM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 52,
+          "TEC": 64,
+          "TAC": 40,
+          "DEF": 58,
+          "CRE": 49,
+          "BAL": 51,
+          "ANT": 73
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H07",
+      "team_id": "HOME",
+      "jersey_number": 8,
+      "name": "Kingswell Player 08",
+      "position": "DM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 44,
+          "TEC": 63,
+          "TAC": 50,
+          "DEF": 73,
+          "CRE": 61,
+          "BAL": 60,
+          "ANT": 72
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H08",
+      "team_id": "HOME",
+      "jersey_number": 10,
+      "name": "Kingswell Player 10",
+      "position": "RCM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 80,
+          "TEC": 82,
+          "TAC": 56,
+          "DEF": 36,
+          "CRE": 68,
+          "BAL": 64,
+          "ANT": 85
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H09",
+      "team_id": "HOME",
+      "jersey_number": 13,
+      "name": "Kingswell Player 13",
+      "position": "LW",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 36,
+          "TEC": 56,
+          "TAC": 57,
+          "DEF": 83,
+          "CRE": 75,
+          "BAL": 67,
+          "ANT": 79
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H10",
+      "team_id": "HOME",
+      "jersey_number": 15,
+      "name": "Kingswell Player 15",
+      "position": "ST",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 48,
+          "TEC": 40,
+          "TAC": 44,
+          "DEF": 42,
+          "CRE": 62,
+          "BAL": 82,
+          "ANT": 72
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H11",
+      "team_id": "HOME",
+      "jersey_number": 14,
+      "name": "Kingswell Player 14",
+      "position": "RW",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 50,
+          "TEC": 85,
+          "TAC": 80,
+          "DEF": 48,
+          "CRE": 67,
+          "BAL": 76,
+          "ANT": 83
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A01",
+      "team_id": "AWAY",
+      "jersey_number": 1,
+      "name": "Fairhaven Player 01",
+      "position": "GK",
+      "position_detail": "GK",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "goalkeeper",
+        "attributes": {
+          "ATT": 76,
+          "TEC": 73,
+          "TAC": 54,
+          "DEF": 63,
+          "CRE": 39,
+          "BAL": 59,
+          "ANT": 52
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A02",
+      "team_id": "AWAY",
+      "jersey_number": 2,
+      "name": "Fairhaven Player 02",
+      "position": "LB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 44,
+          "TEC": 39,
+          "TAC": 71,
+          "DEF": 42,
+          "CRE": 74,
+          "BAL": 79,
+          "ANT": 79
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A03",
+      "team_id": "AWAY",
+      "jersey_number": 4,
+      "name": "Fairhaven Player 04",
+      "position": "LCB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 63,
+          "TEC": 76,
+          "TAC": 63,
+          "DEF": 84,
+          "CRE": 60,
+          "BAL": 65,
+          "ANT": 50
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A04",
+      "team_id": "AWAY",
+      "jersey_number": 5,
+      "name": "Fairhaven Player 05",
+      "position": "RCB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 80,
+          "TEC": 62,
+          "TAC": 64,
+          "DEF": 39,
+          "CRE": 39,
+          "BAL": 54,
+          "ANT": 76
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A05",
+      "team_id": "AWAY",
+      "jersey_number": 3,
+      "name": "Fairhaven Player 03",
+      "position": "RB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 76,
+          "TEC": 74,
+          "TAC": 55,
+          "DEF": 71,
+          "CRE": 49,
+          "BAL": 59,
+          "ANT": 81
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A06",
+      "team_id": "AWAY",
+      "jersey_number": 9,
+      "name": "Fairhaven Player 09",
+      "position": "LCM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 70,
+          "TEC": 40,
+          "TAC": 77,
+          "DEF": 68,
+          "CRE": 74,
+          "BAL": 53,
+          "ANT": 84
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A07",
+      "team_id": "AWAY",
+      "jersey_number": 8,
+      "name": "Fairhaven Player 08",
+      "position": "DM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 75,
+          "TEC": 68,
+          "TAC": 59,
+          "DEF": 35,
+          "CRE": 45,
+          "BAL": 75,
+          "ANT": 35
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A08",
+      "team_id": "AWAY",
+      "jersey_number": 10,
+      "name": "Fairhaven Player 10",
+      "position": "RCM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 52,
+          "TEC": 80,
+          "TAC": 35,
+          "DEF": 46,
+          "CRE": 46,
+          "BAL": 75,
+          "ANT": 58
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A09",
+      "team_id": "AWAY",
+      "jersey_number": 13,
+      "name": "Fairhaven Player 13",
+      "position": "LW",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 63,
+          "TEC": 50,
+          "TAC": 62,
+          "DEF": 79,
+          "CRE": 45,
+          "BAL": 36,
+          "ANT": 57
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A10",
+      "team_id": "AWAY",
+      "jersey_number": 15,
+      "name": "Fairhaven Player 15",
+      "position": "ST",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 82,
+          "TEC": 40,
+          "TAC": 75,
+          "DEF": 54,
+          "CRE": 59,
+          "BAL": 60,
+          "ANT": 81
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A11",
+      "team_id": "AWAY",
+      "jersey_number": 14,
+      "name": "Fairhaven Player 14",
+      "position": "RW",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 44,
+          "TEC": 36,
+          "TAC": 44,
+          "DEF": 69,
+          "CRE": 59,
+          "BAL": 52,
+          "ANT": 35
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H12",
+      "team_id": "HOME",
+      "jersey_number": 11,
+      "name": "Kingswell Player 11",
+      "position": "LCM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": false,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 44,
+          "TEC": 35,
+          "TAC": 38,
+          "DEF": 74,
+          "CRE": 43,
+          "BAL": 63,
+          "ANT": 58
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H13",
+      "team_id": "HOME",
+      "jersey_number": 16,
+      "name": "Kingswell Player 16",
+      "position": "RW",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": false,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 78,
+          "TEC": 60,
+          "TAC": 79,
+          "DEF": 83,
+          "CRE": 62,
+          "BAL": 45,
+          "ANT": 54
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H14",
+      "team_id": "HOME",
+      "jersey_number": 6,
+      "name": "Kingswell Player 06",
+      "position": "LB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": false,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 83,
+          "TEC": 42,
+          "TAC": 79,
+          "DEF": 76,
+          "CRE": 37,
+          "BAL": 44,
+          "ANT": 79
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A12",
+      "team_id": "AWAY",
+      "jersey_number": 11,
+      "name": "Fairhaven Player 11",
+      "position": "LCM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": false,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 53,
+          "TEC": 76,
+          "TAC": 59,
+          "DEF": 71,
+          "CRE": 59,
+          "BAL": 65,
+          "ANT": 66
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A13",
+      "team_id": "AWAY",
+      "jersey_number": 16,
+      "name": "Fairhaven Player 16",
+      "position": "RW",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": false,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 68,
+          "TEC": 46,
+          "TAC": 56,
+          "DEF": 81,
+          "CRE": 48,
+          "BAL": 71,
+          "ANT": 50
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A14",
+      "team_id": "AWAY",
+      "jersey_number": 6,
+      "name": "Fairhaven Player 06",
+      "position": "LB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": false,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 77,
+          "TEC": 55,
+          "TAC": 41,
+          "DEF": 44,
+          "CRE": 39,
+          "BAL": 76,
+          "ANT": 61
+        },
+        "source_conflicts": {}
+      }
+    }
+  ],
+  "columns": {
+    "tracking.players": [
+      "player_id",
+      "x_m",
+      "y_m",
+      "vx_mps",
+      "vy_mps"
+    ],
+    "tracking.ball": [
+      "x_m",
+      "y_m",
+      "z_m",
+      "vx_mps",
+      "vy_mps",
+      "vz_mps"
+    ]
+  },
+  "limitations": [
+    "Simplified procedural motion, not a professional football or physics simulator.",
+    "Clubs, players, venues, ratings and roster profiles are independently generated fictional data. Match events and tracking are synthetic; no real player identity or attributes are imported.",
+    "No offsides, physical collisions or realistic fatigue. Cards and tactical substitutions follow a synthetic schedule.",
+    "Incoming substitutes inherit the outgoing formation slot and position; no touchline entrance animation is modeled.",
+    "Pressure is a proximity heuristic; ball transport during restart_setup is non-playing animation.",
+    "Outcomes exist only in resolved events at available_at_ms; do not expose future events during replay."
+  ],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 3,
+    "kickoff_local": "2026-11-08T16:30:00",
+    "time_zone": "Europe/London",
+    "venue": "Kingswell Park"
+  },
+  "home_club": {
+    "club_id": "S11",
+    "name": "Kingswell FC",
+    "short_name": "Kingswell",
+    "stadium": "Kingswell Park",
+    "colors": {
+      "primary": "#110151",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S06",
+    "name": "Fairhaven FC",
+    "short_name": "Fairhaven",
+    "stadium": "Fairhaven Park",
+    "colors": {
+      "primary": "#8694D0",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "venue": "Kingswell Park"
+}

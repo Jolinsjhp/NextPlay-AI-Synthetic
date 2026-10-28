@@ -1,0 +1,830 @@
+{
+  "schema_version": "1.0.0",
+  "match_id": "SYN26-W02-S04-S15",
+  "synthetic": true,
+  "seed": 20263032,
+  "generator": "generate.py v2.3.0",
+  "action_policy": {
+    "revision": "player-actions-1",
+    "multipliers": {
+      "pass": 1.0,
+      "carry": 1.0,
+      "shot": 1.0
+    },
+    "attribute_strength": 1.0,
+    "scope": "pass/carry/foot-shot selection; radar effects are bounded hypotheses, not fitted player outcomes"
+  },
+  "duration_ms": 6000000,
+  "tracking_hz": 5,
+  "pitch": {
+    "length_m": 105,
+    "width_m": 68,
+    "origin": "top_left",
+    "x_axis": "right",
+    "y_axis": "down",
+    "z_axis": "up"
+  },
+  "periods": [
+    {
+      "period": 1,
+      "start_ms": 0,
+      "duration_ms": 3000000,
+      "regulation_ms": 2700000,
+      "home_attacks": "positive_x"
+    },
+    {
+      "period": 2,
+      "start_ms": 3000000,
+      "duration_ms": 3000000,
+      "regulation_ms": 2700000,
+      "home_attacks": "negative_x"
+    }
+  ],
+  "clock_note": "Two 45+5 minute periods; halftime break omitted. Use period and period_ms for displayed clock.",
+  "teams": [
+    {
+      "team_id": "HOME",
+      "club_id": "S04",
+      "name": "Driftwood FC",
+      "short_name": "Driftwood",
+      "stadium": "Driftwood Park",
+      "colors": {
+        "primary": "#FF9DE6",
+        "secondary": "#FFFFFF"
+      },
+      "formation": "4-3-3"
+    },
+    {
+      "team_id": "AWAY",
+      "club_id": "S15",
+      "name": "Oakmere FC",
+      "short_name": "Oakmere",
+      "stadium": "Oakmere Park",
+      "colors": {
+        "primary": "#D08571",
+        "secondary": "#FFFFFF"
+      },
+      "formation": "4-3-3"
+    }
+  ],
+  "players": [
+    {
+      "player_id": "H01",
+      "team_id": "HOME",
+      "jersey_number": 1,
+      "name": "Driftwood Player 01",
+      "position": "GK",
+      "position_detail": "GK",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "goalkeeper",
+        "attributes": {
+          "ATT": 76,
+          "TEC": 39,
+          "TAC": 37,
+          "DEF": 85,
+          "CRE": 66,
+          "BAL": 35,
+          "ANT": 46
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H02",
+      "team_id": "HOME",
+      "jersey_number": 2,
+      "name": "Driftwood Player 02",
+      "position": "LB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 62,
+          "TEC": 52,
+          "TAC": 70,
+          "DEF": 65,
+          "CRE": 54,
+          "BAL": 42,
+          "ANT": 60
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H03",
+      "team_id": "HOME",
+      "jersey_number": 4,
+      "name": "Driftwood Player 04",
+      "position": "LCB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 81,
+          "TEC": 85,
+          "TAC": 83,
+          "DEF": 71,
+          "CRE": 44,
+          "BAL": 41,
+          "ANT": 64
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H04",
+      "team_id": "HOME",
+      "jersey_number": 5,
+      "name": "Driftwood Player 05",
+      "position": "RCB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 58,
+          "TEC": 50,
+          "TAC": 73,
+          "DEF": 55,
+          "CRE": 73,
+          "BAL": 48,
+          "ANT": 82
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H05",
+      "team_id": "HOME",
+      "jersey_number": 3,
+      "name": "Driftwood Player 03",
+      "position": "RB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 68,
+          "TEC": 73,
+          "TAC": 70,
+          "DEF": 35,
+          "CRE": 55,
+          "BAL": 42,
+          "ANT": 55
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H06",
+      "team_id": "HOME",
+      "jersey_number": 9,
+      "name": "Driftwood Player 09",
+      "position": "LCM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 40,
+          "TEC": 39,
+          "TAC": 69,
+          "DEF": 66,
+          "CRE": 57,
+          "BAL": 49,
+          "ANT": 45
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H07",
+      "team_id": "HOME",
+      "jersey_number": 8,
+      "name": "Driftwood Player 08",
+      "position": "DM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 71,
+          "TEC": 62,
+          "TAC": 69,
+          "DEF": 59,
+          "CRE": 83,
+          "BAL": 44,
+          "ANT": 67
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H08",
+      "team_id": "HOME",
+      "jersey_number": 10,
+      "name": "Driftwood Player 10",
+      "position": "RCM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 37,
+          "TEC": 54,
+          "TAC": 71,
+          "DEF": 64,
+          "CRE": 45,
+          "BAL": 55,
+          "ANT": 84
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H09",
+      "team_id": "HOME",
+      "jersey_number": 13,
+      "name": "Driftwood Player 13",
+      "position": "LW",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 44,
+          "TEC": 64,
+          "TAC": 41,
+          "DEF": 79,
+          "CRE": 85,
+          "BAL": 81,
+          "ANT": 54
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H10",
+      "team_id": "HOME",
+      "jersey_number": 15,
+      "name": "Driftwood Player 15",
+      "position": "ST",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 36,
+          "TEC": 75,
+          "TAC": 58,
+          "DEF": 84,
+          "CRE": 46,
+          "BAL": 36,
+          "ANT": 40
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H11",
+      "team_id": "HOME",
+      "jersey_number": 14,
+      "name": "Driftwood Player 14",
+      "position": "RW",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 46,
+          "TEC": 37,
+          "TAC": 50,
+          "DEF": 42,
+          "CRE": 37,
+          "BAL": 65,
+          "ANT": 35
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A01",
+      "team_id": "AWAY",
+      "jersey_number": 1,
+      "name": "Oakmere Player 01",
+      "position": "GK",
+      "position_detail": "GK",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "goalkeeper",
+        "attributes": {
+          "ATT": 85,
+          "TEC": 73,
+          "TAC": 69,
+          "DEF": 51,
+          "CRE": 52,
+          "BAL": 50,
+          "ANT": 62
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A02",
+      "team_id": "AWAY",
+      "jersey_number": 2,
+      "name": "Oakmere Player 02",
+      "position": "LB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 67,
+          "TEC": 71,
+          "TAC": 45,
+          "DEF": 81,
+          "CRE": 69,
+          "BAL": 49,
+          "ANT": 43
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A03",
+      "team_id": "AWAY",
+      "jersey_number": 4,
+      "name": "Oakmere Player 04",
+      "position": "LCB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 71,
+          "TEC": 67,
+          "TAC": 44,
+          "DEF": 40,
+          "CRE": 50,
+          "BAL": 36,
+          "ANT": 78
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A04",
+      "team_id": "AWAY",
+      "jersey_number": 5,
+      "name": "Oakmere Player 05",
+      "position": "RCB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 83,
+          "TEC": 81,
+          "TAC": 47,
+          "DEF": 66,
+          "CRE": 61,
+          "BAL": 46,
+          "ANT": 65
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A05",
+      "team_id": "AWAY",
+      "jersey_number": 3,
+      "name": "Oakmere Player 03",
+      "position": "RB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 47,
+          "TEC": 56,
+          "TAC": 79,
+          "DEF": 56,
+          "CRE": 66,
+          "BAL": 49,
+          "ANT": 35
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A06",
+      "team_id": "AWAY",
+      "jersey_number": 9,
+      "name": "Oakmere Player 09",
+      "position": "LCM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 52,
+          "TEC": 72,
+          "TAC": 80,
+          "DEF": 42,
+          "CRE": 71,
+          "BAL": 76,
+          "ANT": 64
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A07",
+      "team_id": "AWAY",
+      "jersey_number": 8,
+      "name": "Oakmere Player 08",
+      "position": "DM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 47,
+          "TEC": 58,
+          "TAC": 67,
+          "DEF": 74,
+          "CRE": 66,
+          "BAL": 58,
+          "ANT": 42
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A08",
+      "team_id": "AWAY",
+      "jersey_number": 10,
+      "name": "Oakmere Player 10",
+      "position": "RCM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 45,
+          "TEC": 65,
+          "TAC": 77,
+          "DEF": 62,
+          "CRE": 55,
+          "BAL": 76,
+          "ANT": 83
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A09",
+      "team_id": "AWAY",
+      "jersey_number": 13,
+      "name": "Oakmere Player 13",
+      "position": "LW",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 72,
+          "TEC": 64,
+          "TAC": 68,
+          "DEF": 77,
+          "CRE": 64,
+          "BAL": 53,
+          "ANT": 85
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A10",
+      "team_id": "AWAY",
+      "jersey_number": 15,
+      "name": "Oakmere Player 15",
+      "position": "ST",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 81,
+          "TEC": 46,
+          "TAC": 41,
+          "DEF": 42,
+          "CRE": 63,
+          "BAL": 65,
+          "ANT": 72
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A11",
+      "team_id": "AWAY",
+      "jersey_number": 14,
+      "name": "Oakmere Player 14",
+      "position": "RW",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 35,
+          "TEC": 74,
+          "TAC": 66,
+          "DEF": 51,
+          "CRE": 49,
+          "BAL": 60,
+          "ANT": 64
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H12",
+      "team_id": "HOME",
+      "jersey_number": 11,
+      "name": "Driftwood Player 11",
+      "position": "LCM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": false,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 69,
+          "TEC": 72,
+          "TAC": 37,
+          "DEF": 48,
+          "CRE": 63,
+          "BAL": 37,
+          "ANT": 74
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H13",
+      "team_id": "HOME",
+      "jersey_number": 16,
+      "name": "Driftwood Player 16",
+      "position": "RW",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": false,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 72,
+          "TEC": 53,
+          "TAC": 55,
+          "DEF": 46,
+          "CRE": 75,
+          "BAL": 84,
+          "ANT": 83
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H14",
+      "team_id": "HOME",
+      "jersey_number": 6,
+      "name": "Driftwood Player 06",
+      "position": "LB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": false,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 78,
+          "TEC": 40,
+          "TAC": 71,
+          "DEF": 58,
+          "CRE": 76,
+          "BAL": 46,
+          "ANT": 85
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A12",
+      "team_id": "AWAY",
+      "jersey_number": 11,
+      "name": "Oakmere Player 11",
+      "position": "LCM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": false,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 73,
+          "TEC": 40,
+          "TAC": 52,
+          "DEF": 58,
+          "CRE": 39,
+          "BAL": 57,
+          "ANT": 61
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A13",
+      "team_id": "AWAY",
+      "jersey_number": 16,
+      "name": "Oakmere Player 16",
+      "position": "RW",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": false,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 48,
+          "TEC": 65,
+          "TAC": 40,
+          "DEF": 79,
+          "CRE": 67,
+          "BAL": 85,
+          "ANT": 66
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A14",
+      "team_id": "AWAY",
+      "jersey_number": 6,
+      "name": "Oakmere Player 06",
+      "position": "LB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": false,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 70,
+          "TEC": 76,
+          "TAC": 46,
+          "DEF": 44,
+          "CRE": 40,
+          "BAL": 41,
+          "ANT": 45
+        },
+        "source_conflicts": {}
+      }
+    }
+  ],
+  "columns": {
+    "tracking.players": [
+      "player_id",
+      "x_m",
+      "y_m",
+      "vx_mps",
+      "vy_mps"
+    ],
+    "tracking.ball": [
+      "x_m",
+      "y_m",
+      "z_m",
+      "vx_mps",
+      "vy_mps",
+      "vz_mps"
+    ]
+  },
+  "limitations": [
+    "Simplified procedural motion, not a professional football or physics simulator.",
+    "Clubs, players, venues, ratings and roster profiles are independently generated fictional data. Match events and tracking are synthetic; no real player identity or attributes are imported.",
+    "No offsides, physical collisions or realistic fatigue. Cards and tactical substitutions follow a synthetic schedule.",
+    "Incoming substitutes inherit the outgoing formation slot and position; no touchline entrance animation is modeled.",
+    "Pressure is a proximity heuristic; ball transport during restart_setup is non-playing animation.",
+    "Outcomes exist only in resolved events at available_at_ms; do not expose future events during replay."
+  ],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 2,
+    "kickoff_local": "2026-10-31T20:00:00",
+    "time_zone": "Europe/London",
+    "venue": "Driftwood Park"
+  },
+  "home_club": {
+    "club_id": "S04",
+    "name": "Driftwood FC",
+    "short_name": "Driftwood",
+    "stadium": "Driftwood Park",
+    "colors": {
+      "primary": "#FF9DE6",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S15",
+    "name": "Oakmere FC",
+    "short_name": "Oakmere",
+    "stadium": "Oakmere Park",
+    "colors": {
+      "primary": "#D08571",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "venue": "Driftwood Park"
+}

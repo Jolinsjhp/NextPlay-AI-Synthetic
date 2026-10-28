@@ -1,0 +1,119 @@
+{
+  "match_id": "SYN26-W01-S05-S16",
+  "seed": 20262032,
+  "duration_seconds": 6000,
+  "tracking_hz": 5,
+  "tracking_frames": 30001,
+  "player_position_records": 655734,
+  "state_snapshots": 6001,
+  "event_count": 4726,
+  "event_counts": {
+    "period_start": 2,
+    "possession_change": 630,
+    "restart": 18,
+    "pressure": 752,
+    "carry": 747,
+    "pass": 1921,
+    "interception": 617,
+    "shot": 11,
+    "save": 4,
+    "yellow_card": 2,
+    "stoppage": 7,
+    "action_cancelled": 7,
+    "period_end": 2,
+    "substitution": 4,
+    "red_card": 1,
+    "match_end": 1
+  },
+  "final_score": [
+    0,
+    0
+  ],
+  "final_stats": {
+    "HOME": {
+      "passes": 969,
+      "completed_passes": 657,
+      "shots": 2,
+      "shots_on_target": 2,
+      "interceptions": 305,
+      "pressure_events": 386,
+      "possession_seconds": 2859.4,
+      "possession_pct": 48.93,
+      "pass_accuracy_pct": 67.8
+    },
+    "AWAY": {
+      "passes": 952,
+      "completed_passes": 647,
+      "shots": 9,
+      "shots_on_target": 2,
+      "interceptions": 312,
+      "pressure_events": 366,
+      "possession_seconds": 2984.4,
+      "possession_pct": 51.07,
+      "pass_accuracy_pct": 67.96
+    }
+  },
+  "distance_m": {
+    "H01": 4762.8,
+    "H02": 11823.9,
+    "H03": 16070.1,
+    "H04": 16336.8,
+    "H05": 15800.2,
+    "H06": 10256.1,
+    "H07": 16880.7,
+    "H08": 16666.9,
+    "H09": 16607.5,
+    "H10": 17130.6,
+    "H11": 16942.5,
+    "A01": 4625.1,
+    "A02": 15963.6,
+    "A03": 16066.0,
+    "A04": 16152.7,
+    "A05": 13465.0,
+    "A06": 13363.2,
+    "A07": 16626.1,
+    "A08": 16453.0,
+    "A09": 16451.1,
+    "A10": 17233.6,
+    "A11": 10671.1,
+    "H12": 6263.2,
+    "H13": 0.0,
+    "H14": 3866.2,
+    "A12": 3332.0,
+    "A13": 5871.0,
+    "A14": 0.0
+  },
+  "goals": [],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 1,
+    "kickoff_local": "2026-10-24T20:00:00",
+    "time_zone": "Europe/London",
+    "venue": "Ember Park"
+  },
+  "home_club": {
+    "club_id": "S05",
+    "name": "Ember FC",
+    "short_name": "Ember",
+    "stadium": "Ember Park",
+    "colors": {
+      "primary": "#48AE64",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S16",
+    "name": "Pinecrest FC",
+    "short_name": "Pinecrest",
+    "stadium": "Pinecrest Park",
+    "colors": {
+      "primary": "#B4A7A5",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  }
+}

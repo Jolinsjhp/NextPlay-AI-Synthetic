@@ -1,0 +1,830 @@
+{
+  "schema_version": "1.0.0",
+  "match_id": "SYN26-W01-S07-S14",
+  "synthetic": true,
+  "seed": 20262034,
+  "generator": "generate.py v2.3.0",
+  "action_policy": {
+    "revision": "player-actions-1",
+    "multipliers": {
+      "pass": 1.0,
+      "carry": 1.0,
+      "shot": 1.0
+    },
+    "attribute_strength": 1.0,
+    "scope": "pass/carry/foot-shot selection; radar effects are bounded hypotheses, not fitted player outcomes"
+  },
+  "duration_ms": 6000000,
+  "tracking_hz": 5,
+  "pitch": {
+    "length_m": 105,
+    "width_m": 68,
+    "origin": "top_left",
+    "x_axis": "right",
+    "y_axis": "down",
+    "z_axis": "up"
+  },
+  "periods": [
+    {
+      "period": 1,
+      "start_ms": 0,
+      "duration_ms": 3000000,
+      "regulation_ms": 2700000,
+      "home_attacks": "positive_x"
+    },
+    {
+      "period": 2,
+      "start_ms": 3000000,
+      "duration_ms": 3000000,
+      "regulation_ms": 2700000,
+      "home_attacks": "negative_x"
+    }
+  ],
+  "clock_note": "Two 45+5 minute periods; halftime break omitted. Use period and period_ms for displayed clock.",
+  "teams": [
+    {
+      "team_id": "HOME",
+      "club_id": "S07",
+      "name": "Glenvale FC",
+      "short_name": "Glenvale",
+      "stadium": "Glenvale Park",
+      "colors": {
+        "primary": "#03B317",
+        "secondary": "#FFFFFF"
+      },
+      "formation": "4-3-3"
+    },
+    {
+      "team_id": "AWAY",
+      "club_id": "S14",
+      "name": "Northstar FC",
+      "short_name": "Northstar",
+      "stadium": "Northstar Park",
+      "colors": {
+        "primary": "#EB1CB9",
+        "secondary": "#FFFFFF"
+      },
+      "formation": "4-3-3"
+    }
+  ],
+  "players": [
+    {
+      "player_id": "H01",
+      "team_id": "HOME",
+      "jersey_number": 1,
+      "name": "Glenvale Player 01",
+      "position": "GK",
+      "position_detail": "GK",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "goalkeeper",
+        "attributes": {
+          "ATT": 46,
+          "TEC": 85,
+          "TAC": 71,
+          "DEF": 81,
+          "CRE": 42,
+          "BAL": 46,
+          "ANT": 56
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H02",
+      "team_id": "HOME",
+      "jersey_number": 2,
+      "name": "Glenvale Player 02",
+      "position": "LB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 68,
+          "TEC": 77,
+          "TAC": 62,
+          "DEF": 85,
+          "CRE": 85,
+          "BAL": 47,
+          "ANT": 57
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H03",
+      "team_id": "HOME",
+      "jersey_number": 4,
+      "name": "Glenvale Player 04",
+      "position": "LCB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 47,
+          "TEC": 79,
+          "TAC": 69,
+          "DEF": 44,
+          "CRE": 51,
+          "BAL": 42,
+          "ANT": 85
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H04",
+      "team_id": "HOME",
+      "jersey_number": 5,
+      "name": "Glenvale Player 05",
+      "position": "RCB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 38,
+          "TEC": 79,
+          "TAC": 64,
+          "DEF": 73,
+          "CRE": 56,
+          "BAL": 46,
+          "ANT": 59
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H05",
+      "team_id": "HOME",
+      "jersey_number": 3,
+      "name": "Glenvale Player 03",
+      "position": "RB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 56,
+          "TEC": 62,
+          "TAC": 84,
+          "DEF": 76,
+          "CRE": 48,
+          "BAL": 44,
+          "ANT": 35
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H06",
+      "team_id": "HOME",
+      "jersey_number": 9,
+      "name": "Glenvale Player 09",
+      "position": "LCM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 56,
+          "TEC": 80,
+          "TAC": 42,
+          "DEF": 49,
+          "CRE": 55,
+          "BAL": 66,
+          "ANT": 47
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H07",
+      "team_id": "HOME",
+      "jersey_number": 8,
+      "name": "Glenvale Player 08",
+      "position": "DM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 51,
+          "TEC": 56,
+          "TAC": 75,
+          "DEF": 46,
+          "CRE": 45,
+          "BAL": 35,
+          "ANT": 72
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H08",
+      "team_id": "HOME",
+      "jersey_number": 10,
+      "name": "Glenvale Player 10",
+      "position": "RCM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 54,
+          "TEC": 82,
+          "TAC": 49,
+          "DEF": 78,
+          "CRE": 38,
+          "BAL": 35,
+          "ANT": 85
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H09",
+      "team_id": "HOME",
+      "jersey_number": 13,
+      "name": "Glenvale Player 13",
+      "position": "LW",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 75,
+          "TEC": 61,
+          "TAC": 78,
+          "DEF": 64,
+          "CRE": 81,
+          "BAL": 81,
+          "ANT": 84
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H10",
+      "team_id": "HOME",
+      "jersey_number": 15,
+      "name": "Glenvale Player 15",
+      "position": "ST",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 51,
+          "TEC": 76,
+          "TAC": 57,
+          "DEF": 78,
+          "CRE": 57,
+          "BAL": 81,
+          "ANT": 58
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H11",
+      "team_id": "HOME",
+      "jersey_number": 14,
+      "name": "Glenvale Player 14",
+      "position": "RW",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 80,
+          "TEC": 69,
+          "TAC": 74,
+          "DEF": 35,
+          "CRE": 80,
+          "BAL": 78,
+          "ANT": 41
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A01",
+      "team_id": "AWAY",
+      "jersey_number": 1,
+      "name": "Northstar Player 01",
+      "position": "GK",
+      "position_detail": "GK",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "goalkeeper",
+        "attributes": {
+          "ATT": 46,
+          "TEC": 48,
+          "TAC": 77,
+          "DEF": 69,
+          "CRE": 78,
+          "BAL": 59,
+          "ANT": 47
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A02",
+      "team_id": "AWAY",
+      "jersey_number": 2,
+      "name": "Northstar Player 02",
+      "position": "LB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 75,
+          "TEC": 35,
+          "TAC": 82,
+          "DEF": 80,
+          "CRE": 57,
+          "BAL": 46,
+          "ANT": 41
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A03",
+      "team_id": "AWAY",
+      "jersey_number": 4,
+      "name": "Northstar Player 04",
+      "position": "LCB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 35,
+          "TEC": 59,
+          "TAC": 39,
+          "DEF": 38,
+          "CRE": 48,
+          "BAL": 65,
+          "ANT": 61
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A04",
+      "team_id": "AWAY",
+      "jersey_number": 5,
+      "name": "Northstar Player 05",
+      "position": "RCB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 56,
+          "TEC": 54,
+          "TAC": 52,
+          "DEF": 74,
+          "CRE": 82,
+          "BAL": 61,
+          "ANT": 72
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A05",
+      "team_id": "AWAY",
+      "jersey_number": 3,
+      "name": "Northstar Player 03",
+      "position": "RB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 83,
+          "TEC": 44,
+          "TAC": 82,
+          "DEF": 37,
+          "CRE": 55,
+          "BAL": 61,
+          "ANT": 80
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A06",
+      "team_id": "AWAY",
+      "jersey_number": 9,
+      "name": "Northstar Player 09",
+      "position": "LCM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 48,
+          "TEC": 40,
+          "TAC": 65,
+          "DEF": 84,
+          "CRE": 57,
+          "BAL": 67,
+          "ANT": 46
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A07",
+      "team_id": "AWAY",
+      "jersey_number": 8,
+      "name": "Northstar Player 08",
+      "position": "DM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 36,
+          "TEC": 73,
+          "TAC": 39,
+          "DEF": 72,
+          "CRE": 38,
+          "BAL": 47,
+          "ANT": 43
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A08",
+      "team_id": "AWAY",
+      "jersey_number": 10,
+      "name": "Northstar Player 10",
+      "position": "RCM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 40,
+          "TEC": 78,
+          "TAC": 74,
+          "DEF": 78,
+          "CRE": 83,
+          "BAL": 55,
+          "ANT": 71
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A09",
+      "team_id": "AWAY",
+      "jersey_number": 13,
+      "name": "Northstar Player 13",
+      "position": "LW",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 75,
+          "TEC": 53,
+          "TAC": 83,
+          "DEF": 54,
+          "CRE": 85,
+          "BAL": 35,
+          "ANT": 84
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A10",
+      "team_id": "AWAY",
+      "jersey_number": 15,
+      "name": "Northstar Player 15",
+      "position": "ST",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 59,
+          "TEC": 65,
+          "TAC": 67,
+          "DEF": 51,
+          "CRE": 49,
+          "BAL": 44,
+          "ANT": 58
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A11",
+      "team_id": "AWAY",
+      "jersey_number": 14,
+      "name": "Northstar Player 14",
+      "position": "RW",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": true,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 65,
+          "TEC": 77,
+          "TAC": 38,
+          "DEF": 46,
+          "CRE": 44,
+          "BAL": 71,
+          "ANT": 54
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H12",
+      "team_id": "HOME",
+      "jersey_number": 11,
+      "name": "Glenvale Player 11",
+      "position": "LCM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": false,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 82,
+          "TEC": 53,
+          "TAC": 53,
+          "DEF": 84,
+          "CRE": 83,
+          "BAL": 39,
+          "ANT": 78
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H13",
+      "team_id": "HOME",
+      "jersey_number": 16,
+      "name": "Glenvale Player 16",
+      "position": "RW",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": false,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 59,
+          "TEC": 74,
+          "TAC": 83,
+          "DEF": 63,
+          "CRE": 36,
+          "BAL": 36,
+          "ANT": 41
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "H14",
+      "team_id": "HOME",
+      "jersey_number": 6,
+      "name": "Glenvale Player 06",
+      "position": "LB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": false,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 58,
+          "TEC": 76,
+          "TAC": 43,
+          "DEF": 48,
+          "CRE": 67,
+          "BAL": 68,
+          "ANT": 65
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A12",
+      "team_id": "AWAY",
+      "jersey_number": 11,
+      "name": "Northstar Player 11",
+      "position": "LCM",
+      "position_detail": "MID",
+      "nationality": null,
+      "starter": false,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 63,
+          "TEC": 58,
+          "TAC": 63,
+          "DEF": 53,
+          "CRE": 79,
+          "BAL": 68,
+          "ANT": 75
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A13",
+      "team_id": "AWAY",
+      "jersey_number": 16,
+      "name": "Northstar Player 16",
+      "position": "RW",
+      "position_detail": "FWD",
+      "nationality": null,
+      "starter": false,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 56,
+          "TEC": 50,
+          "TAC": 74,
+          "DEF": 45,
+          "CRE": 53,
+          "BAL": 69,
+          "ANT": 81
+        },
+        "source_conflicts": {}
+      }
+    },
+    {
+      "player_id": "A14",
+      "team_id": "AWAY",
+      "jersey_number": 6,
+      "name": "Northstar Player 06",
+      "position": "LB",
+      "position_detail": "DEF",
+      "nationality": null,
+      "starter": false,
+      "simulated_profile": {
+        "kind": "simulated",
+        "status": "complete",
+        "attribute_kind": "outfield",
+        "attributes": {
+          "ATT": 41,
+          "TEC": 70,
+          "TAC": 70,
+          "DEF": 78,
+          "CRE": 74,
+          "BAL": 59,
+          "ANT": 55
+        },
+        "source_conflicts": {}
+      }
+    }
+  ],
+  "columns": {
+    "tracking.players": [
+      "player_id",
+      "x_m",
+      "y_m",
+      "vx_mps",
+      "vy_mps"
+    ],
+    "tracking.ball": [
+      "x_m",
+      "y_m",
+      "z_m",
+      "vx_mps",
+      "vy_mps",
+      "vz_mps"
+    ]
+  },
+  "limitations": [
+    "Simplified procedural motion, not a professional football or physics simulator.",
+    "Clubs, players, venues, ratings and roster profiles are independently generated fictional data. Match events and tracking are synthetic; no real player identity or attributes are imported.",
+    "No offsides, physical collisions or realistic fatigue. Cards and tactical substitutions follow a synthetic schedule.",
+    "Incoming substitutes inherit the outgoing formation slot and position; no touchline entrance animation is modeled.",
+    "Pressure is a proximity heuristic; ball transport during restart_setup is non-playing animation.",
+    "Outcomes exist only in resolved events at available_at_ms; do not expose future events during replay."
+  ],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 1,
+    "kickoff_local": "2026-10-25T14:00:00",
+    "time_zone": "Europe/London",
+    "venue": "Glenvale Park"
+  },
+  "home_club": {
+    "club_id": "S07",
+    "name": "Glenvale FC",
+    "short_name": "Glenvale",
+    "stadium": "Glenvale Park",
+    "colors": {
+      "primary": "#03B317",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S14",
+    "name": "Northstar FC",
+    "short_name": "Northstar",
+    "stadium": "Northstar Park",
+    "colors": {
+      "primary": "#EB1CB9",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "venue": "Glenvale Park"
+}

@@ -1,0 +1,135 @@
+{
+  "match_id": "SYN26-W01-S17-S04",
+  "seed": 20262031,
+  "duration_seconds": 6000,
+  "tracking_hz": 5,
+  "tracking_frames": 30001,
+  "player_position_records": 655562,
+  "state_snapshots": 6001,
+  "event_count": 4676,
+  "event_counts": {
+    "period_start": 2,
+    "possession_change": 599,
+    "restart": 17,
+    "carry": 725,
+    "pass": 1974,
+    "interception": 586,
+    "pressure": 736,
+    "shot": 10,
+    "save": 5,
+    "yellow_card": 2,
+    "stoppage": 5,
+    "action_cancelled": 7,
+    "period_end": 2,
+    "substitution": 4,
+    "red_card": 1,
+    "match_end": 1
+  },
+  "final_score": [
+    0,
+    1
+  ],
+  "final_stats": {
+    "HOME": {
+      "passes": 1031,
+      "completed_passes": 740,
+      "shots": 8,
+      "shots_on_target": 4,
+      "interceptions": 295,
+      "pressure_events": 293,
+      "possession_seconds": 3247.8,
+      "possession_pct": 55.6,
+      "pass_accuracy_pct": 71.77
+    },
+    "AWAY": {
+      "passes": 943,
+      "completed_passes": 648,
+      "shots": 2,
+      "shots_on_target": 2,
+      "interceptions": 291,
+      "pressure_events": 443,
+      "possession_seconds": 2594.0,
+      "possession_pct": 44.4,
+      "pass_accuracy_pct": 68.72
+    }
+  },
+  "distance_m": {
+    "H01": 4637.2,
+    "H02": 11917.7,
+    "H03": 15958.1,
+    "H04": 16175.5,
+    "H05": 15798.9,
+    "H06": 10281.0,
+    "H07": 16490.1,
+    "H08": 16580.8,
+    "H09": 16627.8,
+    "H10": 16929.1,
+    "H11": 16540.3,
+    "A01": 4768.6,
+    "A02": 15901.0,
+    "A03": 16512.8,
+    "A04": 16070.8,
+    "A05": 13384.9,
+    "A06": 13599.0,
+    "A07": 17077.2,
+    "A08": 16602.1,
+    "A09": 16630.1,
+    "A10": 16940.8,
+    "A11": 10939.7,
+    "H12": 6150.2,
+    "H13": 0.0,
+    "H14": 3848.7,
+    "A12": 3395.5,
+    "A13": 5578.6,
+    "A14": 0.0
+  },
+  "goals": [
+    {
+      "t_ms": 4470600,
+      "period": 2,
+      "period_ms": 1470600,
+      "team_id": "AWAY",
+      "club_id": "S04",
+      "club_name": "Driftwood FC",
+      "player_id": "A10",
+      "player_name": "Driftwood Player 15",
+      "shirt_number": 15,
+      "score": [
+        0,
+        1
+      ]
+    }
+  ],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 1,
+    "kickoff_local": "2026-10-24T17:30:00",
+    "time_zone": "Europe/London",
+    "venue": "Quartz Park"
+  },
+  "home_club": {
+    "club_id": "S17",
+    "name": "Quartz FC",
+    "short_name": "Quartz",
+    "stadium": "Quartz Park",
+    "colors": {
+      "primary": "#687FA6",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S04",
+    "name": "Driftwood FC",
+    "short_name": "Driftwood",
+    "stadium": "Driftwood Park",
+    "colors": {
+      "primary": "#FF9DE6",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  }
+}

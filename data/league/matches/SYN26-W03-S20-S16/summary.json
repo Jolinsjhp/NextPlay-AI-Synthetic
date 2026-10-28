@@ -1,0 +1,165 @@
+{
+  "match_id": "SYN26-W03-S20-S16",
+  "seed": 20264030,
+  "duration_seconds": 6000,
+  "tracking_hz": 5,
+  "tracking_frames": 30001,
+  "player_position_records": 655556,
+  "state_snapshots": 6001,
+  "event_count": 4572,
+  "event_counts": {
+    "period_start": 2,
+    "possession_change": 574,
+    "restart": 26,
+    "pressure": 802,
+    "carry": 774,
+    "pass": 1786,
+    "interception": 553,
+    "shot": 19,
+    "save": 3,
+    "stoppage": 16,
+    "yellow_card": 2,
+    "action_cancelled": 7,
+    "period_end": 2,
+    "substitution": 4,
+    "red_card": 1,
+    "match_end": 1
+  },
+  "final_score": [
+    0,
+    3
+  ],
+  "final_stats": {
+    "HOME": {
+      "passes": 874,
+      "completed_passes": 593,
+      "shots": 5,
+      "shots_on_target": 3,
+      "interceptions": 272,
+      "pressure_events": 430,
+      "possession_seconds": 2771.2,
+      "possession_pct": 48.28,
+      "pass_accuracy_pct": 67.85
+    },
+    "AWAY": {
+      "passes": 912,
+      "completed_passes": 640,
+      "shots": 14,
+      "shots_on_target": 3,
+      "interceptions": 281,
+      "pressure_events": 372,
+      "possession_seconds": 2968.6,
+      "possession_pct": 51.72,
+      "pass_accuracy_pct": 70.18
+    }
+  },
+  "distance_m": {
+    "H01": 4550.1,
+    "H02": 11235.9,
+    "H03": 15354.8,
+    "H04": 15582.4,
+    "H05": 15100.4,
+    "H06": 10315.6,
+    "H07": 16155.3,
+    "H08": 15995.9,
+    "H09": 15690.8,
+    "H10": 16352.9,
+    "H11": 16122.1,
+    "A01": 4405.6,
+    "A02": 15040.7,
+    "A03": 15142.5,
+    "A04": 15395.1,
+    "A05": 12916.5,
+    "A06": 12330.7,
+    "A07": 15617.5,
+    "A08": 15683.8,
+    "A09": 15578.2,
+    "A10": 17152.8,
+    "A11": 10802.1,
+    "H12": 5574.0,
+    "H13": 0.0,
+    "H14": 3740.6,
+    "A12": 3262.1,
+    "A13": 5771.0,
+    "A14": 0.0
+  },
+  "goals": [
+    {
+      "t_ms": 79600,
+      "period": 1,
+      "period_ms": 79600,
+      "team_id": "AWAY",
+      "club_id": "S16",
+      "club_name": "Pinecrest FC",
+      "player_id": "A10",
+      "player_name": "Pinecrest Player 15",
+      "shirt_number": 15,
+      "score": [
+        0,
+        1
+      ]
+    },
+    {
+      "t_ms": 1561000,
+      "period": 1,
+      "period_ms": 1561000,
+      "team_id": "AWAY",
+      "club_id": "S16",
+      "club_name": "Pinecrest FC",
+      "player_id": "A10",
+      "player_name": "Pinecrest Player 15",
+      "shirt_number": 15,
+      "score": [
+        0,
+        2
+      ]
+    },
+    {
+      "t_ms": 4816000,
+      "period": 2,
+      "period_ms": 1816000,
+      "team_id": "AWAY",
+      "club_id": "S16",
+      "club_name": "Pinecrest FC",
+      "player_id": "A10",
+      "player_name": "Pinecrest Player 15",
+      "shirt_number": 15,
+      "score": [
+        0,
+        3
+      ]
+    }
+  ],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 3,
+    "kickoff_local": "2026-11-07T15:00:00",
+    "time_zone": "Europe/London",
+    "venue": "Thornvale Park"
+  },
+  "home_club": {
+    "club_id": "S20",
+    "name": "Thornvale FC",
+    "short_name": "Thornvale",
+    "stadium": "Thornvale Park",
+    "colors": {
+      "primary": "#2C2841",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S16",
+    "name": "Pinecrest FC",
+    "short_name": "Pinecrest",
+    "stadium": "Pinecrest Park",
+    "colors": {
+      "primary": "#B4A7A5",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  }
+}

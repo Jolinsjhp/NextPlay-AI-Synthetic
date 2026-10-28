@@ -1,0 +1,119 @@
+{
+  "match_id": "SYN26-W01-S15-S06",
+  "seed": 20262033,
+  "duration_seconds": 6000,
+  "tracking_hz": 5,
+  "tracking_frames": 30001,
+  "player_position_records": 656383,
+  "state_snapshots": 6001,
+  "event_count": 4652,
+  "event_counts": {
+    "period_start": 2,
+    "possession_change": 606,
+    "restart": 20,
+    "pressure": 718,
+    "carry": 707,
+    "pass": 1965,
+    "interception": 591,
+    "shot": 13,
+    "stoppage": 9,
+    "yellow_card": 2,
+    "save": 4,
+    "action_cancelled": 7,
+    "period_end": 2,
+    "substitution": 4,
+    "red_card": 1,
+    "match_end": 1
+  },
+  "final_score": [
+    0,
+    0
+  ],
+  "final_stats": {
+    "HOME": {
+      "passes": 939,
+      "completed_passes": 645,
+      "shots": 8,
+      "shots_on_target": 3,
+      "interceptions": 297,
+      "pressure_events": 372,
+      "possession_seconds": 2787.8,
+      "possession_pct": 47.84,
+      "pass_accuracy_pct": 68.69
+    },
+    "AWAY": {
+      "passes": 1026,
+      "completed_passes": 729,
+      "shots": 5,
+      "shots_on_target": 1,
+      "interceptions": 294,
+      "pressure_events": 346,
+      "possession_seconds": 3040.0,
+      "possession_pct": 52.16,
+      "pass_accuracy_pct": 71.05
+    }
+  },
+  "distance_m": {
+    "H01": 4766.7,
+    "H02": 11868.4,
+    "H03": 16086.4,
+    "H04": 16366.8,
+    "H05": 15954.2,
+    "H06": 11146.8,
+    "H07": 16952.9,
+    "H08": 16974.4,
+    "H09": 16448.6,
+    "H10": 17576.2,
+    "H11": 16607.1,
+    "A01": 4812.4,
+    "A02": 15882.2,
+    "A03": 16429.6,
+    "A04": 16286.4,
+    "A05": 14010.0,
+    "A06": 12820.3,
+    "A07": 16820.1,
+    "A08": 16360.8,
+    "A09": 16646.9,
+    "A10": 17127.1,
+    "A11": 10968.1,
+    "H12": 5583.8,
+    "H13": 0.0,
+    "H14": 4109.1,
+    "A12": 3521.0,
+    "A13": 5579.7,
+    "A14": 0.0
+  },
+  "goals": [],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 1,
+    "kickoff_local": "2026-10-25T14:00:00",
+    "time_zone": "Europe/London",
+    "venue": "Oakmere Park"
+  },
+  "home_club": {
+    "club_id": "S15",
+    "name": "Oakmere FC",
+    "short_name": "Oakmere",
+    "stadium": "Oakmere Park",
+    "colors": {
+      "primary": "#D08571",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S06",
+    "name": "Fairhaven FC",
+    "short_name": "Fairhaven",
+    "stadium": "Fairhaven Park",
+    "colors": {
+      "primary": "#8694D0",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  }
+}

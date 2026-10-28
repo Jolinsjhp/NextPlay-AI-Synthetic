@@ -1,0 +1,195 @@
+{
+  "match_id": "SYN26-W02-S16-S03",
+  "seed": 20263031,
+  "duration_seconds": 6000,
+  "tracking_hz": 5,
+  "tracking_frames": 30001,
+  "player_position_records": 656299,
+  "state_snapshots": 6001,
+  "event_count": 4651,
+  "event_counts": {
+    "period_start": 2,
+    "possession_change": 622,
+    "restart": 28,
+    "pressure": 733,
+    "carry": 723,
+    "pass": 1885,
+    "interception": 599,
+    "shot": 21,
+    "stoppage": 14,
+    "save": 7,
+    "yellow_card": 2,
+    "action_cancelled": 7,
+    "period_end": 2,
+    "substitution": 4,
+    "red_card": 1,
+    "match_end": 1
+  },
+  "final_score": [
+    3,
+    2
+  ],
+  "final_stats": {
+    "HOME": {
+      "passes": 933,
+      "completed_passes": 639,
+      "shots": 16,
+      "shots_on_target": 9,
+      "interceptions": 305,
+      "pressure_events": 306,
+      "possession_seconds": 3042.6,
+      "possession_pct": 53.23,
+      "pass_accuracy_pct": 68.49
+    },
+    "AWAY": {
+      "passes": 952,
+      "completed_passes": 647,
+      "shots": 5,
+      "shots_on_target": 3,
+      "interceptions": 294,
+      "pressure_events": 427,
+      "possession_seconds": 2673.2,
+      "possession_pct": 46.77,
+      "pass_accuracy_pct": 67.96
+    }
+  },
+  "distance_m": {
+    "H01": 4600.0,
+    "H02": 11919.6,
+    "H03": 16088.9,
+    "H04": 15903.5,
+    "H05": 15591.4,
+    "H06": 10291.2,
+    "H07": 16622.1,
+    "H08": 16137.4,
+    "H09": 16423.5,
+    "H10": 16984.7,
+    "H11": 16412.2,
+    "A01": 4789.8,
+    "A02": 15620.0,
+    "A03": 16061.7,
+    "A04": 16116.7,
+    "A05": 13652.2,
+    "A06": 13027.7,
+    "A07": 16950.4,
+    "A08": 16434.2,
+    "A09": 16373.4,
+    "A10": 17006.3,
+    "A11": 10628.2,
+    "H12": 6298.4,
+    "H13": 0.0,
+    "H14": 3793.9,
+    "A12": 3619.1,
+    "A13": 5698.4,
+    "A14": 0.0
+  },
+  "goals": [
+    {
+      "t_ms": 288000,
+      "period": 1,
+      "period_ms": 288000,
+      "team_id": "AWAY",
+      "club_id": "S03",
+      "club_name": "Cedar FC",
+      "player_id": "A09",
+      "player_name": "Cedar Player 13",
+      "shirt_number": 13,
+      "score": [
+        0,
+        1
+      ]
+    },
+    {
+      "t_ms": 2485000,
+      "period": 1,
+      "period_ms": 2485000,
+      "team_id": "AWAY",
+      "club_id": "S03",
+      "club_name": "Cedar FC",
+      "player_id": "A11",
+      "player_name": "Cedar Player 14",
+      "shirt_number": 14,
+      "score": [
+        0,
+        2
+      ]
+    },
+    {
+      "t_ms": 2910400,
+      "period": 1,
+      "period_ms": 2910400,
+      "team_id": "HOME",
+      "club_id": "S16",
+      "club_name": "Pinecrest FC",
+      "player_id": "H10",
+      "player_name": "Pinecrest Player 15",
+      "shirt_number": 15,
+      "score": [
+        1,
+        2
+      ]
+    },
+    {
+      "t_ms": 3303000,
+      "period": 2,
+      "period_ms": 303000,
+      "team_id": "HOME",
+      "club_id": "S16",
+      "club_name": "Pinecrest FC",
+      "player_id": "H10",
+      "player_name": "Pinecrest Player 15",
+      "shirt_number": 15,
+      "score": [
+        2,
+        2
+      ]
+    },
+    {
+      "t_ms": 4369600,
+      "period": 2,
+      "period_ms": 1369600,
+      "team_id": "HOME",
+      "club_id": "S16",
+      "club_name": "Pinecrest FC",
+      "player_id": "H10",
+      "player_name": "Pinecrest Player 15",
+      "shirt_number": 15,
+      "score": [
+        3,
+        2
+      ]
+    }
+  ],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 2,
+    "kickoff_local": "2026-10-31T17:30:00",
+    "time_zone": "Europe/London",
+    "venue": "Pinecrest Park"
+  },
+  "home_club": {
+    "club_id": "S16",
+    "name": "Pinecrest FC",
+    "short_name": "Pinecrest",
+    "stadium": "Pinecrest Park",
+    "colors": {
+      "primary": "#B4A7A5",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S03",
+    "name": "Cedar FC",
+    "short_name": "Cedar",
+    "stadium": "Cedar Park",
+    "colors": {
+      "primary": "#133FB9",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  }
+}

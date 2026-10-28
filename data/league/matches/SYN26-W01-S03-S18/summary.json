@@ -1,0 +1,135 @@
+{
+  "match_id": "SYN26-W01-S03-S18",
+  "seed": 20262030,
+  "duration_seconds": 6000,
+  "tracking_hz": 5,
+  "tracking_frames": 30001,
+  "player_position_records": 655584,
+  "state_snapshots": 6001,
+  "event_count": 4731,
+  "event_counts": {
+    "period_start": 2,
+    "possession_change": 648,
+    "restart": 21,
+    "pressure": 719,
+    "carry": 741,
+    "pass": 1924,
+    "interception": 631,
+    "shot": 14,
+    "stoppage": 7,
+    "save": 7,
+    "yellow_card": 2,
+    "action_cancelled": 7,
+    "period_end": 2,
+    "substitution": 4,
+    "red_card": 1,
+    "match_end": 1
+  },
+  "final_score": [
+    0,
+    1
+  ],
+  "final_stats": {
+    "HOME": {
+      "passes": 954,
+      "completed_passes": 639,
+      "shots": 8,
+      "shots_on_target": 6,
+      "interceptions": 316,
+      "pressure_events": 387,
+      "possession_seconds": 2804.6,
+      "possession_pct": 48.22,
+      "pass_accuracy_pct": 66.98
+    },
+    "AWAY": {
+      "passes": 970,
+      "completed_passes": 654,
+      "shots": 6,
+      "shots_on_target": 2,
+      "interceptions": 315,
+      "pressure_events": 332,
+      "possession_seconds": 3012.2,
+      "possession_pct": 51.78,
+      "pass_accuracy_pct": 67.42
+    }
+  },
+  "distance_m": {
+    "H01": 4690.6,
+    "H02": 11777.2,
+    "H03": 16362.0,
+    "H04": 16308.7,
+    "H05": 16303.5,
+    "H06": 10830.9,
+    "H07": 17096.2,
+    "H08": 16819.8,
+    "H09": 16759.5,
+    "H10": 17485.3,
+    "H11": 16944.1,
+    "A01": 4755.7,
+    "A02": 16085.3,
+    "A03": 16168.4,
+    "A04": 16383.0,
+    "A05": 13800.4,
+    "A06": 13887.9,
+    "A07": 16924.3,
+    "A08": 16565.2,
+    "A09": 17054.8,
+    "A10": 17436.1,
+    "A11": 10353.2,
+    "H12": 6326.6,
+    "H13": 0.0,
+    "H14": 4296.1,
+    "A12": 3193.3,
+    "A13": 5805.5,
+    "A14": 0.0
+  },
+  "goals": [
+    {
+      "t_ms": 2915200,
+      "period": 1,
+      "period_ms": 2915200,
+      "team_id": "AWAY",
+      "club_id": "S18",
+      "club_name": "Rivermist FC",
+      "player_id": "A10",
+      "player_name": "Rivermist Player 15",
+      "shirt_number": 15,
+      "score": [
+        0,
+        1
+      ]
+    }
+  ],
+  "competition": {
+    "id": "NEXTPLAY-SYN-2026",
+    "name": "NextPlay League (synthetic)",
+    "season": "2026/27",
+    "synthetic": true,
+    "matchweek": 1,
+    "kickoff_local": "2026-10-24T15:00:00",
+    "time_zone": "Europe/London",
+    "venue": "Cedar Park"
+  },
+  "home_club": {
+    "club_id": "S03",
+    "name": "Cedar FC",
+    "short_name": "Cedar",
+    "stadium": "Cedar Park",
+    "colors": {
+      "primary": "#133FB9",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  },
+  "away_club": {
+    "club_id": "S18",
+    "name": "Rivermist FC",
+    "short_name": "Rivermist",
+    "stadium": "Rivermist Park",
+    "colors": {
+      "primary": "#6DE1F5",
+      "secondary": "#FFFFFF"
+    },
+    "formation": "4-3-3"
+  }
+}
