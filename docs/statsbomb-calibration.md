@@ -31,6 +31,37 @@ external statistical calibration as eligible. Section 5 also restricts
 post-deadline submission changes. This repository update is a development
 update, not evidence that a modified entry has been accepted by the organizer.
 
+## Retained interface and authorization scope
+
+The retained interface is the local command
+`python3 -m research.statsbomb_calibration --manifest PATH`. There is no new
+public HTTP calibration endpoint. The command writes only under `.local/` and
+does not download data, alter the release profile, regenerate matches, retrain
+Q2, publish derived artifacts or deploy Azure automatically.
+
+Before enabling real-data calibration, record what the applicable permission
+actually covers:
+
+| Intended use | What needs clarification |
+| --- | --- |
+| Local research and fitting | Applicable dataset/version, authorized users, permitted processing and retention. |
+| Prize-bearing hackathon participation | Whether this project's contest and demonstration purposes are covered; do not presume that a prize alone establishes or rules out commercial use. |
+| Public GitHub publication | Whether aggregate tables, fitted parameters and any derived synthetic dataset may be redistributed, and under which conditions. Raw events are not published by this tool. |
+| Hosted demonstrations on Azure | Whether use of derived results in the public application is covered, including the allowed audience and duration. |
+| Later paid or commercial use | Separate commercial rights must be established; public research access alone is not treated as commercial authorization. |
+| Attribution and branding | Follow the applicable credit/logo requirements and any approved publication wording; do not imply endorsement. |
+
+The rights holder determines the data license scope. The hackathon organizer
+determines eligibility and whether post-deadline changes are accepted. Neither
+approval substitutes for the other. A local authorization manifest records the
+team's review; it does not verify rights or grant permission.
+
+Until that scope is established, keep the bundled engineering-default profile,
+fictional player attributes and independently generated matches. Merely renaming
+real players or perturbing their attributes is not our synthesis method. The
+four-action tendency baseline and existing Q2 ranking do not load StatsBomb
+calibration through this interface.
+
 ## Reproducible workflow after authorization
 
 1. Obtain permission covering the actual uses, including the public release of

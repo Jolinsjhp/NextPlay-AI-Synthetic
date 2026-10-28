@@ -131,6 +131,14 @@ The public license restricts commercial exploitation and requires attribution
 and a logo; project-specific authorization for the intended contest/public-demo
 uses has not been established. See [method, rights review and activation steps](docs/statsbomb-calibration.md).
 The release remains synthetic and uses engineering-default frequency assumptions.
+The calibration interface is retained as an **offline, opt-in research tool**,
+not a public upload/inference API. Keeping the interface does not authorize
+using external data. Before activation, confirm rights for contest participation,
+public GitHub publication of derived tables/models, hosted demos and any later
+commercial use; these are separate uses and cannot be inferred from research
+access alone. Organizer approval concerns contest rules and does not grant
+StatsBomb data rights. No additional permission is needed to run our invented
+calibration test fixtures.
 No compliance or real-match predictive accuracy is certified by these checks.
 
 ## Validation
